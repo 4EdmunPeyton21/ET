@@ -1,0 +1,130 @@
+================================================================================
+EQUIPMENT SPECIFICATION SHEET
+PUMP-XYZ (Grundfos SPM 150-11 Submersible Pump)
+Issued: 2019-06-10 | Revision: C | Classification: CONFIDENTIAL
+================================================================================
+
+IDENTIFICATION
+Equipment ID: PUMP-XYZ-2019
+Manufacturer: Grundfos A/S (Denmark)
+Model Number: SPM 150-11 / 4.0 kW-90
+Serial Number: DK-RP-20190515-012847
+Installation Date: 2019-08-22
+Application: Coolant circulation system (closed-loop), Steel plant Unit A
+
+PERFORMANCE SPECIFICATIONS
+Rated Flow Rate: 150 L/min (at 1450 RPM)
+Rated Pressure: 25 bar (362 PSI)
+Maximum Allowable Pressure: 32 bar (464 PSI) - relief valve setting
+Suction Head (Max): -8.0 m (cavitation threshold: <1 bar inlet pressure)
+Discharge Head: 250 m (theoretical maximum)
+Power Rating: 4.0 kW electric motor (1450 RPM, 3-phase, 50 Hz, 6.5 A)
+Efficiency (Overall): 75% at rated conditions
+Noise Level: 76 dB(A) at 1 meter
+
+OPERATIONAL LIMITS
+Operating Temperature Range: 5°C to 60°C (ambient), fluid max 65°C
+Fluid Temperature (Design): 40-55°C (optimal range)
+Inlet Temperature Limit: 70°C (above this, NBR seals at risk)
+Ambient Temperature: -10°C to +50°C
+Storage Temperature: -20°C to +70°C
+Relative Humidity: 0-95% (non-condensing)
+Altitude: Max 1000 m above sea level
+
+CONSTRUCTION DETAILS
+Pump Type: Centrifugal, vertical turbine, single-stage impeller
+Impeller Design: Closed radial vanes, 150 mm diameter
+Housing Material: Ductile iron (EN-GJS-500-07)
+Impeller Material: Nickel-aluminum bronze (CuNiAl)
+Shaft Material: Stainless steel AISI 316L (corrosion-resistant)
+Shaft Diameter: 20 mm, hardened to 50-52 HRC
+Bearing Type: Deep-groove ball bearings (SKF 6205-2RS)
+Bearing Lubrication: Packed grease (Mobil SHC 629)
+
+SEAL SYSTEM SPECIFICATION
+Primary Seal Type: Mechanical seal - Cartridge design
+Primary Seal Material: NBR (nitrile rubber) Type A, carbon-ceramic face
+Secondary Seal Type: Mechanical seal - Cartridge design
+Secondary Seal Material: FKM (Viton fluoroelastomer) Type B, tungsten carbide face
+Seal Spring: Stainless steel spring cartridge, Belleville type
+Seal Cavity: Pressure-balanced, allowing operation up to 25 bar
+Leakage Rate: <0.5 mL/day (acceptable per ISO 4414)
+OEM Seal Kit Part Numbers:
+  - Primary (NBR): Grundfos 96087211
+  - Secondary (FKM): Grundfos 96087414
+  - Spring assembly: Grundfos 96087098
+Seal Service Life: 24-36 months (design), actual 20-24 months under steel plant conditions
+
+PIPING CONNECTIONS
+Inlet Connection: Flanged, DN 50 (2 inches), PN 25 bar, ISO 4401 (NG10)
+  - Inlet Piping Size: DN 50 with 40-micron strainer (Hydac RFBN/HC110)
+  - Recommended Inlet Velocity: 0.6-1.2 m/s
+Outlet Connection: Flanged, DN 40 (1.5 inches), PN 25 bar, ISO 4401 (NG10)
+  - Outlet Piping Size: DN 40
+  - Recommended Outlet Velocity: 1.5-2.5 m/s
+Drain Connection: DN 20 (0.75 inches), gravity return to reservoir
+Flushing Port: ISO 4401 cavity (NG10), for system cleaning
+
+HYDRAULIC FLUID SPECIFICATIONS
+Fluid Type: ISO VG 32 hydraulic oil (mineral or synthetic)
+Recommended Brands: Mobil DTE 10 Excel 32, Shell Tellus S2 V 32
+Viscosity Index: Min 95 (temperature stability)
+Cleanliness Level: ISO 4406 16/14/11 or better (target 16/14/11)
+Maximum Water Content: 300 ppm (moisture degradation threshold)
+Acid Number: Max 0.5 mg KOH/g (oxidation stability)
+Bulk Modulus: 1.65 GPa (typical)
+Tank Capacity: 250 liters minimum (recommended circulation ratio 3:1)
+Change Interval: 2000 operating hours or annually, whichever comes first
+
+MATERIALS & CORROSION RESISTANCE
+Housing: Ductile iron, painted with epoxy primer (80 microns) + polyurethane topcoat (60 microns)
+Fasteners: Stainless steel A4 (AISI 316L) bolts, minimum grade 8.8
+Seals: FKM (Viton) for temperature and chemical resistance
+Shaft: Passivated stainless steel AISI 316L
+Bearing Cage: Brass (self-lubricating in grease)
+Corrosion Class: C3 (steel plant environment - high risk)
+
+CERTIFICATIONS & COMPLIANCE
+ISO 4414: Hydraulic safety standard (pressure system safety, hose sizing, relief valve settings)
+EN 12922: Hydraulic fluid classification and specification
+ISO 13849-1: Functional safety of hydraulic systems (Category 3, PLd)
+Factory Act Section 27: Guarding and safety requirements for rotating equipment
+ASME B31.1: Code for pressure piping
+Pressure Equipment Directive: 2014/68/EU (PED) - Category II
+CE Marking: Applied 2019-06-10 (compliance with PED and machinery directive)
+Third-party certification: Authorized by TÜV Süd AG (Certificate No. TUV-2019-08847)
+Insurance: Covered under AXA Industrial Liability Policy (max 5 bar design pressure recognition)
+
+ENVIRONMENTAL SPECIFICATIONS
+Operating Duty: Continuous, 24/7 (design capability)
+Expected Service Life: 10 years (with preventive maintenance)
+Noise Limit Compliance: 82 dB(A) site limit - compliant at 76 dB(A)
+Vibration Limit: ISO 10816-1, Zone A (<2.3 mm/s), current operating point 5-6 mm/s
+Fluid Disposal: Hydraulic oil disposal per local regulations (India: Ministry of Environment guidelines)
+
+SPARE PARTS AVAILABILITY
+OEM Lead Time: 4-6 weeks (India distributor: Grundfos India Pvt. Ltd., Mumbai)
+Critical Spare Parts Recommended for Stock:
+  1. Seal kit (primary + secondary): INR 6,500 (stock qty: 2)
+  2. Bearing assembly (SKF 6205-2RS): INR 1,200 (stock qty: 2)
+  3. Impeller (bronze, 150 mm): INR 8,900 (stock qty: 1)
+  4. Mechanical seal spring: INR 800 (stock qty: 4)
+  5. Inlet strainer cartridge (40 micron): INR 800 (stock qty: 6)
+
+DOCUMENTATION REFERENCES
+OEM Manual: Grundfos SPM 150 Installation & Maintenance Guide (Edition 3.0)
+Hydraulic Schematic: Drawing No. DWG-PUMP-XYZ-HYD-001
+Electrical Schematic: Drawing No. DWG-PUMP-XYZ-ELE-001
+3D CAD Model: Available on request (Solidworks 2019 format)
+Pressure Test Certificate: Hydrostatic test report, dated 2019-06-08 (25 bar x 10 min - PASSED)
+
+REVISION HISTORY
+Revision A (2019-06-10): Initial specification
+Revision B (2021-03-15): Added FKM seal specifications post-incident review
+Revision C (2024-01-20): Updated seal service life based on 4-year operational data
+
+================================================================================
+Approved by: Sandeep Deshmukh, Plant Engineering Manager (Signature on file)
+Date: 2024-01-20
+Next Review Date: 2025-01-20
+================================================================================

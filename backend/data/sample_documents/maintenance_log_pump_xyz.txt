@@ -1,0 +1,112 @@
+================================================================================
+MAINTENANCE LOG - PUMP-XYZ (Grundfos SPM 150-11)
+Location: Steel Plant, Unit A - Coolant Circulation System
+Equipment ID: PUMP-XYZ-2019
+System Pressure Rating: 25 bar (362 PSI)
+================================================================================
+
+EVENT 1 - ROUTINE MAINTENANCE
+Date: 2023-03-15
+Technician: Rajesh Kumar (ID: TECH-045)
+Time On-Site: 2.5 hours
+Description: Quarterly preventive maintenance. Pressure readings nominal at 18.5 bar.
+Seal Inspection: Primary seal (NBR Type A) - PASS. No visible wear or leakage.
+Activities Performed:
+  - Oil top-up (Mobil DTE 10 Excel 32): +2.3 liters
+  - Filter element replacement (Hydac RFBN/HC110)
+  - Vibration measurement: 6.2 mm/s (within tolerance <7.5 mm/s)
+  - Bearing temperature: 52°C (normal range 45-65°C)
+Cost: INR 4,200
+Parts Used: Filter cartridge (INR 1,850), Hydraulic oil (INR 1,200)
+Status: COMPLETED - Equipment operational
+Next Scheduled: 2023-06-15
+
+---
+
+EVENT 2 - SEAL FAILURE REPLACEMENT
+Date: 2023-07-22
+Technician: Amit Sharma (ID: TECH-012)
+Time On-Site: 4.0 hours
+Description: Secondary seal (FKM compound) showing micro-leakage. Pressure spiked to 22.1 bar during operation.
+Root Cause: Extended operation above rated temperature (68°C observed). Seal degradation accelerated.
+Seal Replacement:
+  - Removed failed FKM secondary seal
+  - Installed new FKM Type B seal (Grundfos OEM Part No. 96087414)
+  - Primary NBR seal inspected - retained (condition GOOD)
+Activities:
+  - System flushed with filtration (ISO 17/15/12 cleanliness achieved)
+  - Pressure test at 20 bar: PASS (no leakage detected)
+  - Operating temperature stabilized: 58°C
+Cost: INR 7,850
+Parts: FKM Seal assembly (INR 5,200), Hydraulic fluid for flushing (INR 1,100), Labor (INR 1,550)
+Status: COMPLETED - Equipment operational
+Next Scheduled: 2023-10-22
+
+---
+
+EVENT 3 - CAVITATION INCIDENT RESPONSE
+Date: 2023-10-11
+Technician: Vikram Patel (ID: TECH-028) & Deepak Singh (ID: TECH-033)
+Time On-Site: 6.5 hours
+Description: Emergency service. Cavitation noise detected at inlet. Pressure fluctuation 8.2-18.9 bar.
+Root Cause: Inlet strainer blockage (80% clogged with particulates). Suction pressure dropped to 0.3 bar.
+Actions Taken:
+  - Strainer cartridge removed and cleaned (40-micron element)
+  - System purged to remove cavitation nucleation sites
+  - Inlet piping inspected - minor erosion marks (documented in photos)
+  - Suction pressure re-established: 2.1 bar (normal)
+  - Cavitation ceased immediately post-cleaning
+Seal Status: Primary NBR seal - PASS. Secondary FKM seal - PASS. No damage from cavitation event.
+Cost: INR 3,200
+Parts: Strainer cartridge replacement (INR 800), Cleaning supplies (INR 150)
+Status: COMPLETED - Equipment operational
+Next Scheduled: 2023-11-11 (accelerated inspection)
+
+---
+
+EVENT 4 - ACCELERATED INSPECTION POST-CAVITATION
+Date: 2023-11-11
+Technician: Rajesh Kumar (ID: TECH-045)
+Time On-Site: 1.5 hours
+Description: Post-incident verification following 2023-10-11 cavitation event.
+Inspection Results:
+  - Pressure readings: 19.2 bar (stable, no fluctuation)
+  - Vibration analysis: 5.8 mm/s (excellent condition)
+  - Bearing temperature: 54°C
+  - Seal integrity: Both NBR primary and FKM secondary seals examined - PASS
+  - Flow rate: 150 L/min (nominal, no degradation)
+Cost: INR 2,100
+Status: COMPLETED - Equipment operational. Incident resolved.
+Next Scheduled: 2024-02-11
+
+---
+
+EVENT 5 - ANNUAL MAJOR MAINTENANCE & SEAL OVERHAUL
+Date: 2024-02-18
+Technician: Amit Sharma (ID: TECH-012) & Deepak Singh (ID: TECH-033)
+Time On-Site: 8.0 hours
+Description: Annual overhaul. Preventive seal replacement per OEM recommendation (2-year service life).
+Seal Replacement Schedule:
+  - Primary seal (NBR Type A): REPLACED (Grundfos OEM Part No. 96087211)
+  - Secondary seal (FKM Type B): REPLACED (Grundfos OEM Part No. 96087414)
+  - Spring cartridge: REPLACED
+  - Bearing seal assembly: REPLACED
+Activities:
+  - Complete pump disassembly and inspection
+  - All bearing surfaces: PASS (no scoring, wear <0.05 mm)
+  - Seal cavity cleaned to ISO 4406 16/14/11
+  - Pump reassembly with new seal kit
+  - Hydrostatic pressure test: 25 bar for 10 minutes - PASS (zero leakage)
+  - Operational test: 8 hours continuous at 20 bar - PASS
+Bearing Temperature Post-Test: 55°C (stable)
+Cost: INR 12,400
+Parts: Seal kit (NBR + FKM + spring) (INR 8,200), Bearing assembly (INR 2,100), Labor (INR 2,100)
+Status: COMPLETED - Equipment operational. All systems nominal.
+Next Scheduled: 2024-05-18 (routine check)
+
+================================================================================
+SUMMARY: Equipment PUMP-XYZ has undergone 5 maintenance interventions in 2023-2024 period.
+Total Maintenance Cost: INR 29,750
+Operating Hours Since Last Major Overhaul: 850 hours
+Current Status: OPERATIONAL - All certifications current
+================================================================================
