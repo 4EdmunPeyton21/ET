@@ -1,0 +1,659 @@
+================================================================================
+GRUNDFOS SPM 150-11 SUBMERSIBLE PUMP
+INSTALLATION & MAINTENANCE MANUAL
+Excerpt - Technical Specification, Troubleshooting & Parts List
+Revision: 3.0 | Edition: 2019-08 | Authorized Distributor: Grundfos India Pvt. Ltd.
+================================================================================
+
+SECTION 1: TECHNICAL SPECIFICATIONS
+================================================================================
+
+PUMP MODEL: Grundfos SPM 150-11 / 4.0 kW-90
+Pump Type: Vertical turbine centrifugal pump, single-stage, submersible design
+Rated Pressure: 25 bar (362 PSI)
+Maximum Allowable Pressure: 32 bar (464 PSI) - system relief valve setting
+Rated Flow Rate: 150 L/min (at 1450 RPM, 50 Hz)
+Flow Range: 80-150 L/min (design envelope)
+Rated Power: 4.0 kW (electric motor), direct drive coupling
+Operating Speed: 1450 RPM (50 Hz synchronous speed)
+Efficiency at Rated Conditions: 75% (pump + motor combined)
+
+IMPELLER DESIGN
+Impeller Type: Closed radial vane design, single-stage
+Impeller Diameter: 150 mm (nominal)
+Impeller Material: Nickel-aluminum bronze (CuNiAl) - corrosion resistant
+Impeller Suction Design: Anti-cavitation suction shape per ISO 4413
+Impeller Balance: Statically and dynamically balanced to ISO 1940 Grade G2.5
+Maximum Impeller Speed: 1450 RPM (design limit)
+
+PUMP HOUSING
+Housing Type: Ductile iron casting, pressure-containing design
+Housing Material: EN-GJS-500-07 (500 MPa tensile, 7% elongation min.)
+Housing Pressure Rating: Designed for 32 bar continuous (4% above rated 25 bar)
+Housing Coating: Epoxy primer (80 µm) + polyurethane topcoat (60 µm) for C3 corrosion class
+Inlet Size: DN 50 (2 inches), ISO 4401 NG10 flange mounting
+Outlet Size: DN 40 (1.5 inches), ISO 4401 NG10 flange mounting
+Drain Port: DN 20 (0.75 inches) for seal leakage return to tank
+
+SHAFT DESIGN
+Shaft Material: Stainless steel AISI 316L (X2CrNiMo17-12-2), full passivation
+Shaft Diameter: 20 mm nominal at impeller bore
+Shaft Hardness: 50-52 HRC (flame hardened surface)
+Shaft Runout: Max 0.05 mm TIR (Total Indicated Runout) at bearing journals
+Shaft Length: 350 mm from impeller hub to motor coupling
+Coupling Type: Flexible jaw coupling (elastomer damping) with guards per Factory Act Section 27
+Coupling Guard: Sturdy steel frame, guards rotation completely
+Coupling Torque Limit: 30 N-m max (prevent overload damage)
+
+BEARING SYSTEM
+Bearing Type: Deep-groove ball bearings, double-sealed (skf 6205-2RS)
+Bearing Preload: Light preload (0.5-1.0 mm axial clearance at assembly)
+Bearing Lubrication: Packed grease (Mobil SHC 629), rated -30°C to +120°C
+Bearing Seals: Integral 2RS (metal shields with grease seals) protecting from contamination
+Bearing Life: L10 bearing life 40,000 hours at rated load (nominal)
+Bearing Inspection Interval: 1,000 operating hours or 12 months (whichever comes first)
+
+MECHANICAL SEAL SYSTEM
+Primary Seal Configuration: Cartridge-type mechanical seal
+Primary Seal Material: NBR (nitrile rubber) Type A cartridge
+Primary Seal Faces: Carbon (rotating) on ceramic (stationary), sealed with elastomer
+Primary Seal Spring: Stainless steel Belleville spring, preloaded
+Secondary Seal Material: FKM (Viton fluoroelastomer) Type B cartridge
+Secondary Seal Application: Pressure-balanced secondary seal for high-pressure operation
+Secondary Seal Faces: Tungsten carbide (rotating) on carbon (stationary)
+Seal Cavity Pressure: Balanced cavity design allows operation to 25 bar without damaging seals
+Acceptable Leakage Rate: <0.5 mL/day (per ISO 4414)
+Seal Lubrication: Via pumped process fluid (ISO VG 32 hydraulic oil)
+Seal Service Life (Design): 24-36 months (actual 20-24 months in industrial steel plant duty)
+
+Seal Replacement Procedure:
+  1. Isolate pump from system (close inlet/outlet ball valves)
+  2. Relieve all system pressure using manual bleed
+  3. Remove seal cavity plug from pump body (1/4" NPT port on side)
+  4. Withdraw seal cartridge assembly using seal removal tool (Grundfos P/N 96088021)
+  5. Inspect seal cavity cleanliness (flush to ISO 4406 16/14/11 if required)
+  6. Install new seal kit (primary + secondary cartridge assembly) using seal compression tool
+  7. Torque seal cavity plug to 25 N-m
+  8. Refill system and pressurize to 5 bar to verify no external leakage before full operation
+
+OPERATING CONDITIONS & LIMITS
+Temperature Range (Ambient): -10°C to +50°C
+Temperature Range (Fluid): 5°C to 60°C (design limit), optimal 40-55°C
+Maximum Fluid Temperature: 65°C (above 65°C, NBR seal at degradation risk)
+Inlet Absolute Pressure (Suction): Min 0.5 bar, max -8.0 m suction head (cavitation threshold)
+Inlet Temperature Limit: 70°C (above this, NBR primary seal will degrade rapidly)
+Altitude: Max 1000 m above sea level (affects suction performance)
+Duty Cycle: Continuous operation (24/7 design capability)
+Duty Class: Industrial, 8,000+ operating hours annual expected
+
+POWER & ELECTRICAL
+Motor Type: 3-phase asynchronous induction motor, Class II insulation, IEC 60034-1
+Motor Power: 4.0 kW (5.5 HP)
+Motor Speed: 1450 RPM (synchronous speed at 50 Hz, 3-phase)
+Motor Voltage: 220V nominal (three-phase supply, ±10% acceptable range: 198-242V)
+Motor Current: 6.5 A rated full load current (each phase)
+Motor Circuit Breaker: Recommended 10 A type C (3-phase protection)
+Thermal Overload Relay: Set to 6.5 A motor FLC (full load current)
+Motor Insulation Class: F (max continuous operating temperature 155°C winding)
+Motor Protection: IP54 (dust and water splash protected enclosure)
+Motor Service Factor: 1.15 (allows 15% overload temporarily)
+Starting Method: Direct-on-line (DOL) start via soft starter recommended to reduce inrush current (peak 45 A at startup)
+
+SYSTEM HYDRAULIC FLUID
+Fluid Type: ISO VG 32 (viscosity grade 32 centistokes at 40°C)
+Recommended Brands: Mobil DTE 10 Excel 32, Shell Tellus S2 V 32, FUCHS Hydrotherm
+Viscosity Grade: ISO VG 32 (per ISO 3448 classification)
+Viscosity at 40°C: 28.8-35.2 cSt (typical Grundfos specification)
+Viscosity at 100°C: >4.5 cSt (ensures proper film strength at operating temperature)
+Viscosity Index: Min 95 (temperature stability across operating range)
+Pour Point: Min -18°C (ensures fluid pumpability at cold ambient)
+Flash Point: Min 170°C (fire safety standard)
+Auto-Ignition Temperature: Min 300°C
+Acid Number (TAN): Max 0.5 mg KOH/g (oxidation stability indicator)
+Demulsibility: Passes ASTM D1401 (water separation characteristic)
+Air Release: Passes ASTM D3427 (foam prevention)
+Antifoam: Compliant with ISO 6247 antifoam standard
+Cleanliness Level: Target ISO 4406 16/14/11 (achieved through filtration)
+Water Content: Max 300 ppm (acceptable <300 ppm, target <200 ppm)
+Bulk Modulus: 1.65 GPa (pressure transmission efficiency)
+
+Hydraulic Fluid Change Interval:
+  Standard duty (ISO 4406 17/15/13): Every 2,000 hours or 2 years
+  Heavy industrial duty (steel plant): Every 2,000 hours or 1 year (accelerated oxidation)
+  Change timing: Monitor acid number (TAN) - replace when TAN >0.4 mg KOH/g
+
+SYSTEM PIPING & HOSE
+Inlet Piping Size: DN 50 (2 inches nominal)
+Inlet Piping Material: Steel, pressure-rated PN 25 bar minimum
+Inlet Hose: EN 286 4SP (4 spiral wire reinforced), pressure-rated 210 bar
+Inlet Hose Recommended Size: 2" (50 mm) inner diameter
+Inlet Velocity: Recommended 0.6-1.2 m/s (prevents cavitation from friction losses)
+Inlet Strainer: 40-micron element (Hydac RFBN/HC110 or equivalent)
+Outlet Piping Size: DN 40 (1.5 inches nominal)
+Outlet Hose: EN 286 4SP, pressure-rated 210 bar
+Outlet Velocity: Recommended 1.5-2.5 m/s (prevents erosion at high velocity)
+Return Line Piping: DN 50 (2 inches) or larger, gravity return to tank
+Return Line Velocity: Recommended 1.0-2.0 m/s (prevents backpressure on pump seals)
+Return Filter: 10-micron element (Hydac or equivalent) - maintains cleanliness
+Hose Service Life: 5 years maximum per EN 285 standard
+Hose Pressure Test: All hoses rated 210 bar minimum, system tests at 25 bar design pressure
+Hose Assembly Couplers: ISO 4401 NG10 cartridge cavity flanges (SAE J518 code 61)
+
+================================================================================
+SECTION 2: TROUBLESHOOTING GUIDE
+================================================================================
+
+PROBLEM 1: PUMP WILL NOT START (Motor does not hum)
+
+Symptom Description: Green START button pressed, pump motor does not rotate or produce sound
+
+Diagnostic Steps:
+  Step 1: Verify main electrical supply
+    - Check that main breaker is in ON position
+    - Use multimeter: Verify 220V between phase terminals (L1-L2, L2-L3, L1-L3)
+    - Check voltage imbalance: All three phases should read 215-225V nominal
+    - If voltage <200V: Contact power company (low supply voltage)
+    - If voltage >240V: Check transformer tap settings (may damage motor)
+  
+  Step 2: Verify emergency stop circuit
+    - Locate red STOP button on control panel
+    - If button is pressed inward (STOPPED state): Turn counterclockwise to RESET
+    - Listen for click sound confirming reset (electrical contact closure)
+    - Retry START button
+  
+  Step 3: Check motor circuit protection
+    - Locate motor circuit breaker (typically 10A type C three-phase breaker)
+    - If breaker is in TRIPPED position (lever in middle): Reset to ON
+    - If breaker trips immediately after reset: Do NOT retry
+      Root cause likely electrical fault - Contact maintenance supervisor
+      Troubleshooting required: Motor megohm test, phase sequence verification
+  
+  Step 4: Verify motor soft starter (if installed)
+    - Some systems have electronic soft starters reducing inrush current
+    - Check soft starter panel for red fault light (indicates fault code)
+    - Soft starter fault codes: Consult equipment manual or technician
+  
+  Step 5: Motor insulation test (Megohm test - requires technician)
+    - If Steps 1-4 pass but motor still won't start:
+    - Use megohm tester: Phase-to-ground insulation should read >10 MΩ
+    - If insulation <10 MΩ: Motor winding failure suspected - Replace motor
+    - If insulation good: Check motor connector terminals (loose connections possible)
+
+Root Causes Summary: Low supply voltage (10%), emergency stop active (40%), circuit breaker tripped (30%), motor winding failure (15%), loose connectors (5%)
+
+---
+
+PROBLEM 2: PUMP STARTS BUT NO PRESSURE BUILDS (Gauge stays at 0 bar)
+
+Symptom Description: Motor runs (audible humming), pump audibly operates, but discharge pressure gauge reads 0 bar
+
+Diagnostic Steps:
+  Step 1: Verify flow (audible/visual)
+    - Listen at discharge hose outlet (if accessible)
+    - Expected: Fluid flow sound (rushing water-like sound)
+    - If no flow sound: Pump is cavitating or intake blocked
+    - If flow sound present: Pump delivering flow (pressure build failure likely)
+  
+  Step 2: Check discharge ball valve
+    - Locate discharge ball valve (on discharge piping, ~0.5m from pump outlet)
+    - Turn handle: Should align parallel to pipe (OPEN position)
+    - If handle perpendicular to pipe: Valve is CLOSED
+    - Action: Turn handle to parallel position, try pressure ramp again
+  
+  Step 3: Check inlet ball valve
+    - Locate inlet ball valve (on inlet piping, ~1.0m from pump inlet)
+    - Turn handle: Should align parallel to pipe (OPEN position)
+    - If handle perpendicular: Valve is CLOSED - flow blocked at inlet
+    - Action: Turn handle to parallel position
+  
+  Step 4: Verify pump is actually rotating
+    - Look at pump coupling guard: Can you see coupling rotation?
+    - Listen to pump body: Audible rotating sound with pitch consistent?
+    - If no rotation visible/audible: Motor spinning but coupling slipped
+      Likely cause: Flexible coupling damper degraded or bolts loose
+      Action: Stop pump, inspect coupling 4 bolts (tighten if loose)
+  
+  Step 5: Check for inlet blockage (cavitation)
+    - Look at inlet pressure gauge (should read 2.0-2.5 bar normally)
+    - If inlet pressure <0.5 bar: Inlet blockage or cavitation occurring
+    - If inlet pressure normal (2.0-2.5 bar): Problem is discharge-side
+  
+  Step 6: Diagnose discharge-side blockage
+    - If inlet pressure good BUT discharge pressure is 0 bar:
+    - Stop pump and listen for blockage noise (grinding sound indicates impeller blockage)
+    - Feel discharge hose (if safe temperature-wise): Should feel pressure pulsation
+    - If hose is soft/no pulsation: Pump outlet blocked (restriction in downstream system)
+    - Action: Check if downstream check valve is stuck closed
+    - Action: Verify cooler inlet/outlet valves are OPEN
+
+Root Causes Summary: Discharge valve closed (35%), inlet valve closed (25%), inlet cavitation (20%), coupling slip (10%), downstream blockage (10%)
+
+---
+
+PROBLEM 3: CAVITATION EVENT (Audible grinding/crackling noise from pump)
+
+Symptom Description: Pump operating, audible cavitation noise "grinding" or "crackling" sound
+
+Causes of Cavitation:
+  Cause 1: Inlet strainer blockage (80% of cavitation cases)
+    Symptom: Noise develops gradually, inlet pressure drops below 1.5 bar
+    Solution: Clean or replace inlet strainer element (40 micron)
+    Time to resolution: 15-20 minutes (strainer cleaning/replacement)
+  
+  Cause 2: Insufficient inlet pressure (suction starvation)
+    Symptom: Noise develops when pump load increases, inlet pressure <0.5 bar
+    Root cause: Reservoir fluid level low, inlet line restriction, pump inlet below fluid level
+    Solution: Verify reservoir fluid level adequate, check inlet line for blockage
+    Time to resolution: 5-10 minutes
+  
+  Cause 3: Elevated bulk oil temperature
+    Symptom: Cavitation noise appears when fluid temperature >58°C
+    Root cause: Inadequate cooler capacity, cooler fan not operating
+    Solution: Verify cooler fan running, check cooler outlet for blockage
+    Time to resolution: 10-15 minutes (cooler diagnosis)
+  
+  Cause 4: Inlet line restriction (unusual)
+    Symptom: Cavitation noise, inlet pressure very low (<0.5 bar)
+    Root cause: Inlet hose kinked, inlet coupling partially disconnected, inlet strainer bypass opened
+    Solution: Visually inspect inlet line from reservoir to pump inlet
+    Time to resolution: 5 minutes (visual inspection)
+
+Immediate Response (All Causes):
+  1. STOP pump immediately when cavitation detected (pressure release, no more noise generation)
+  2. Wait 2 minutes for system pressure to drop to zero (cooling period)
+  3. IDENTIFY CAUSE using diagnostic steps above
+  4. DO NOT restart until root cause addressed
+  5. After fix, restart using normal startup procedure (STEP 5 in SOP-42A)
+
+Cavitation Risk Assessment:
+  - If cavitation continues <30 minutes: Minor impeller pitting risk, seals protected
+  - If cavitation continues 30-60 minutes: Significant impeller erosion, shaft runout increase risk
+  - If cavitation continues >2 hours: Impeller fatigue failure probable, seals at risk if pressure-balance compromised
+  - Post-cavitation inspection: Always measure impeller wear (ultrasonic thickness test), bearing condition
+
+Cavitation Prevention:
+  - Maintain inlet pressure >1.5 bar at all times
+  - Keep strainer clean (replace when inlet pressure rises >0.5 bar above baseline)
+  - Monitor bulk oil temperature (max 60°C, alarm at 58°C)
+  - Maintain proper reservoir level (never below MIN mark on gauge)
+  - Keep inlet line free of restrictions (inspect annually)
+
+---
+
+PROBLEM 4: SEAL FAILURE (Continuous fluid weeping or spray from drain line)
+
+Symptom Description: Continuous fluid flow from pump drain line (not drops, but continuous stream)
+
+Diagnostic Assessment:
+  Normal (Acceptable): 1-5 drops per minute from drain line = Healthy seals
+  Caution (Monitor): 5-15 drops per minute = Borderline condition, monitor closely
+  Failure (STOP): Continuous stream from drain = Seal failure, DO NOT operate
+
+Root Causes of Seal Failure:
+  Cause 1: Seal mechanical wear (age >24 months)
+    Symptom: Leakage rate increases gradually over weeks
+    Solution: Replace seal cartridge assembly (NBR primary + FKM secondary)
+    Time to resolution: 4 hours (seal replacement procedure)
+  
+  Cause 2: Seal cavity contamination (particulate damage)
+    Symptom: Sudden increase in leakage after pressure spike or cavitation event
+    Diagnosis: Clean seal cavity flush test (see SEAL REPLACEMENT procedure above)
+    Solution: Flush seal cavity to ISO 4406 16/14/11, replace seals if damaged
+  
+  Cause 3: Seal faces cracked or pitted (cavitation damage or debris impact)
+    Symptom: Large volume of leakage immediately after cavitation or pressure transient
+    Diagnosis: Disassemble and visually inspect seal faces
+    Solution: Replace seal cartridge immediately (damaged faces not repairable)
+  
+  Cause 4: Thermal degradation of seal elastomer (bulk oil temperature >65°C)
+    Symptom: Leakage appears suddenly when temperature exceeds 60°C
+    Root cause: NBR seal (primary) degradation at high temperature, or FKM seal loss of elasticity
+    Solution: Reduce bulk oil temperature using cooler, replace seals before restarting
+    Prevention: Implement temperature monitoring with 60°C alarm
+
+Seal Leakage Limits (ISO 4414):
+  Acceptable leakage: <0.5 mL/day (internal erosion balance design normal)
+  Marginal leakage: 0.5-2.0 mL/day (monitor, prepare for seal replacement)
+  Failure threshold: >2.0 mL/day (immediate seal replacement required)
+
+Seal Replacement Kit:
+  Part Number: Grundfos Seal Kit P/N 96087010 (complete NBR primary + FKM secondary)
+  Alternative P/N by component:
+    - Primary seal (NBR): 96087211 (sold separately)
+    - Secondary seal (FKM): 96087414 (sold separately)
+    - Spring assembly: 96087098 (sold separately)
+
+---
+
+PROBLEM 5: EXCESSIVE TEMPERATURE RISE (Fluid temperature >60°C, rising at >1°C per minute)
+
+Symptom Description: Outlet thermometer reading rises rapidly during operation
+
+Causes & Solutions:
+  Cause 1: Cooler not functioning (fan not running)
+    Diagnosis: Visually inspect cooler unit fan (should be rotating if temp >54°C)
+    Solution: Check cooler power supply, thermostat setting, fan motor operation
+    Recovery: Allow pump to idle at low pressure until temperature cools to 50°C
+  
+  Cause 2: Cooler outlet blocked (cooler bypass or restriction)
+    Diagnosis: Feel cooler outlet hose temperature (should be warm, 3-5°C cooler than inlet)
+    If outlet cold: Cooler bypass valve may be stuck, isolating cooler
+    Solution: Manually open cooler isolation valve (if equipped), verify bypass valve operation
+  
+  Cause 3: System overload (excessive pump flow/pressure)
+    Diagnosis: Check that load control valve is fully open (not restricting flow)
+    Check discharge pressure: If >25 bar, system is under heavy load
+    Solution: Reduce pump load temporarily by closing load valve 1/4 turn
+  
+  Cause 4: Low fluid level (reduces cooler effectiveness)
+    Diagnosis: Check reservoir level gauge (should be between MIN and MAX)
+    If low: Cooler cannot circulate adequate flow, temperature rises
+    Solution: Top-up fluid to MAX level before operation resumes
+  
+  Cause 5: Cooler capacity inadequate for duty cycle
+    Diagnosis: If all other checks pass, cooler may be undersized for continuous operation
+    This was identified post-Jan 2024 cavitation incident (hot steel plant environment)
+    Solution: Upgrade cooler (Grundfos recommendation: 20 kW cooler for steel plant duty)
+
+Temperature Alarm Response:
+  If fluid temperature exceeds 60°C:
+    1. Stop pump operation immediately
+    2. Identify root cause using diagnostics above
+    3. Allow 30-minute cool-down period
+    4. Restart only after cause is corrected
+
+Prevention:
+  - Install temperature alarm at 58°C (alerts operator before critical 60°C reached)
+  - Ensure cooler fan is running whenever bulk oil temperature exceeds 54°C
+  - Monitor monthly temperature trends (increasing trend indicates cooler degradation)
+
+---
+
+PROBLEM 6: ABNORMAL VIBRATION (Hand-feel pump body vibration >7 mm/s or audible noise)
+
+Symptom Description: Vibration felt on pump body, unusual grinding or whining noise
+
+Causes:
+  Cause 1: Bearing wear (bearing internal play increased)
+    Symptom: Low-frequency vibration (1-10 Hz), felt at pump body
+    Diagnosis: Bearing runout test (place dial indicator on shaft, rotate by hand)
+    Runout >0.1 mm TIR = Bearing wear significant
+    Solution: Replace bearing cartridge (SKF 6205-2RS)
+  
+  Cause 2: Impeller imbalance (blade erosion from cavitation)
+    Symptom: High-frequency vibration (1450 RPM fundamental frequency ~24 Hz)
+    Diagnosis: Vibration frequency matches motor speed (indicates impeller imbalance)
+    Solution: Replace impeller (Grundfos P/N for 150 mm bronze impeller available)
+  
+  Cause 3: Misalignment (pump/motor coupling not concentric)
+    Symptom: Vibration increases with speed, coupling gets hot
+    Diagnosis: Check coupling bolts (4 bolts, all should be hand-tight)
+    Solution: Loosen bolts, re-align coupling, re-torque bolts to 15 N-m
+  
+  Cause 4: Loose foundation bolts (pump not rigidly mounted)
+    Symptom: Vibration mainly felt at pump base
+    Diagnosis: Visual inspection of 4 foundation bolts (M12 bolts into concrete)
+    Solution: Tighten foundation bolts (hand-tight, do not over-torque threaded inserts)
+
+Vibration Severity Scale (ISO 10816-1):
+  Zone A (Normal): <2.3 mm/s RMS vibration - Equipment operating normally
+  Zone B (Caution): 2.3-7.1 mm/s - Acceptable with restrictions, investigate if worsening
+  Zone C (Alarm): 7.1-11.2 mm/s - Abnormal, operation should be stopped, repair needed
+  Zone D (Emergency): >11.2 mm/s - Imminent failure risk, immediate shutdown required
+
+---
+
+PROBLEM 7: PRESSURE RELIEF VALVE LEAKING (Discharge pressure cannot rise above ~20 bar)
+
+Symptom Description: System pressure plateaus at ~20 bar despite full load applied
+
+Causes:
+  Cause 1: Relief valve cracking at lower pressure (valve wear)
+    Symptom: Pressure rises to ~20 bar then audible hissing (relief discharge)
+    Diagnosis: Relief valve should not crack until 32 bar setpoint
+    Solution: Relief valve requires recalibration by certified technician (TÜV Süd)
+    Replacement: If valve cannot be recalibrated, replace with new ATOS DHRZ-A-030-210
+  
+  Cause 2: Relief valve partially stuck open (dirt contamination)
+    Symptom: Pressure rises to 20 bar, then slowly drifts down (5-10 minutes)
+    Solution: Flush relief valve cavity, clean internal poppet
+    If cleaning unsuccessful: Replace valve cartridge
+  
+  Cause 3: Pilot line blockage (if pilot-operated relief)
+    Symptom: Pressure does not rise at all (zero bar)
+    Diagnosis: Check pilot supply filter (if equipped)
+    Solution: Clean pilot filter, verify pilot line flow
+
+Relief Valve Maintenance:
+  - Annual calibration due: Verify setpoint ±1 bar accuracy
+  - Certified technician required for recalibration (TÜV, no in-house recalibration)
+  - Calibration cost: INR 3,500 (typical service charge)
+  - Lead time: 4-5 working days
+  - Spare cartridge availability: Keep 1 spare ATOS cartridge in inventory (INR 2,200)
+
+================================================================================
+SECTION 3: PARTS LIST & ORDERING INFORMATION
+================================================================================
+
+SECTION 3.1: COMPLETE PARTS BREAKDOWN
+
+PUMP ASSEMBLY (Complete Unit Replacement)
+Part Number: SPM 150-11
+Description: Grundfos SPM 150-11 submersible pump, complete assembly
+Includes: Pump body, impeller, shaft, bearings, seals, motor coupling
+Unit Cost: INR 85,000 (OEM list price, India distributor)
+Lead Time: 6-8 weeks (manufactured in Denmark, shipped to India)
+Warranty: 24 months (OEM warranty, excludes seal wear)
+
+---
+
+MECHANICAL SEAL KIT (Complete Seal Assembly Replacement)
+Part Number: 96087010
+Description: Complete seal kit - NBR primary seal + FKM secondary seal + spring assembly
+Contents:
+  - Primary seal cartridge (NBR Type A, carbon-ceramic faces)
+  - Secondary seal cartridge (FKM Type B, tungsten carbide-carbon faces)
+  - Spring assembly (stainless steel Belleville spring)
+  - Seal cavity O-rings (backup seals, set of 3)
+Unit Cost: INR 6,500
+Quantity Recommended: 2 kits (keep 1 spare for emergency replacement)
+Lead Time: 2-3 weeks (India distributor stock)
+Installation Time: 4 hours (technician labor)
+Recommended Replacement Interval: Every 24 months or 2,000 operating hours
+
+---
+
+INDIVIDUAL SEAL COMPONENTS
+
+Primary Seal Cartridge
+Part Number: 96087211
+Description: NBR Type A mechanical seal (primary), carbon on ceramic
+Unit Cost: INR 2,100
+Alternative: Not recommended to install primary alone - always use complete kit
+
+Secondary Seal Cartridge
+Part Number: 96087414
+Description: FKM Type B mechanical seal (secondary), tungsten carbide on carbon
+Unit Cost: INR 2,200
+Alternative: Not recommended to install secondary alone - always use complete kit
+
+Seal Spring Assembly
+Part Number: 96087098
+Description: Seal spring cartridge, stainless steel Belleville spring, preloaded
+Unit Cost: INR 800
+Application: Required for both primary and secondary seal mounting
+
+---
+
+IMPELLER ASSEMBLY
+
+Impeller (150 mm, Nickel-Aluminum Bronze)
+Part Number: 96087650 (150 mm diameter, single-stage)
+Description: Closed radial vane impeller, CuNiAl material, balanced G2.5
+Unit Cost: INR 8,900
+When to Replace: After cavitation damage (pitting), bearing wear (shaft runout >0.1 mm)
+Installation Notes: Requires bearing removal, impeller press fit onto shaft
+Recommended Tools: Impeller removal tool (P/N 96088045), press (20-ton minimum)
+Installation Time: 6 hours (requires shop press, technical expertise)
+
+---
+
+BEARING ASSEMBLY
+
+Bearing Cartridge (Deep-Groove Ball Bearing)
+Part Number: 96087240 (SKF 6205-2RS equivalent, complete assembly with seals)
+Description: Double-sealed ball bearing, preloaded assembly ready for installation
+Unit Cost: INR 1,200
+When to Replace: Bearing runout >0.1 mm, noise or vibration at operating speed
+Installation Time: 2 hours (bearing press tool required)
+Bearing Life Data: 40,000 hours at rated load (nominal L10 life)
+Lubrication: Pre-packed grease (Mobil SHC 629), sealed for life
+
+---
+
+OUTLET FLANGE & FITTINGS
+
+Outlet Flange Assembly (DN 40, ISO 4401 NG10)
+Part Number: 96087370
+Description: Pump discharge flange, ISO 4401 cavity, includes O-rings
+Unit Cost: INR 2,200
+When to Replace: If flange develops cracks or thread damage
+Fasteners: M12 bolts (4 qty), stainless steel A4, grade 8.8
+
+Inlet Flange Assembly (DN 50, ISO 4401 NG10)
+Part Number: 96087365
+Description: Pump inlet flange, ISO 4401 cavity, includes O-rings
+Unit Cost: INR 2,400
+When to Replace: If inlet flange develops cracks or corrosion
+Fasteners: M12 bolts (4 qty), stainless steel A4, grade 8.8
+
+---
+
+FASTENERS & MISCELLANEOUS
+
+Coupling Guard Assembly
+Part Number: 96087410
+Description: Steel frame coupling guard, 1.5 mm steel, epoxy-coated
+Unit Cost: INR 1,800
+When to Replace: If guard bent, cracked, or rusted (safety critical component)
+Fasteners: 4x M12 bolts included
+
+Drain Line Assembly (Hose + Fittings)
+Part Number: 96087425
+Description: Pump drain return hose, DN 20 (0.75"), length 2.0 m
+Unit Cost: INR 1,100
+When to Replace: Every 5 years (EN 285 hose service life) or if cracked/kinked
+Includes: ISO 4401 quick-disconnect fittings on both ends
+
+---
+
+SECTION 3.2: RECOMMENDED SPARE PARTS INVENTORY
+
+Critical Spare Parts (recommended quantity for continuous operation):
+
+1. Seal Kit (96087010): 2 kits
+   Reason: Most frequent replacement, 4-6 week lead time if unavailable
+   Cost: INR 13,000 (2 kits)
+   Storage: Cool, dry location, not exposed to direct sunlight
+
+2. Bearing Assembly (96087240): 2 cartridges
+   Reason: Bearing failure prevents equipment operation
+   Cost: INR 2,400 (2 cartridges)
+
+3. Inlet Strainer Element (40 micron): 6 cartridges
+   Reason: High-use consumable, changed 1,000-1,500 hour intervals
+   Cost: INR 4,800 (6 cartridges) [Hydac P/N RFBN/HC110]
+
+4. Impeller Assembly (96087650): 1 cartridge
+   Reason: Expensive component, 6-8 week lead time if not in stock
+   Cost: INR 8,900
+
+5. Inlet Flange (96087365): 1 assembly
+   Cost: INR 2,400
+
+6. Outlet Flange (96087370): 1 assembly
+   Cost: INR 2,200
+
+Total Recommended Spare Parts Inventory Value: INR 34,700
+
+---
+
+SECTION 3.3: ORDERING INFORMATION
+
+Authorized Distributor (India):
+  Company: Grundfos India Pvt. Ltd.
+  Address: Plot 64-A, Sector 32, Seawoods, Navi Mumbai 400706
+  Phone: +91-22-7171-4444
+  Email: sales@grundfos.co.in
+  Website: www.grundfos.co.in
+
+Alternative Distributors (Mumbai region):
+  - Lakhanpal National Inc., Worli
+  - Voith Transmissions India, Pune
+  - Azelio Hydraulics, Thane
+
+Typical Lead Times (from India distributor):
+  - Seal kits: 2-3 weeks
+  - Bearing assemblies: 1-2 weeks
+  - Strainer elements: 3-5 days
+  - Impeller assemblies: 4-6 weeks (OEM manufacture)
+  - Complete pump units: 6-8 weeks (manufactured in Denmark)
+
+Urgent Parts (24-48 hour delivery available):
+  - Seal kits (limited stock)
+  - Bearing cartridges (limited stock)
+  - Strainer elements (stocked locally)
+  
+Order Minimum: No minimum order quantity (single units accepted)
+Payment Terms: Net 30 (credit terms for registered industrial accounts)
+Warranty: OEM 24-month warranty on all parts (excludes normal wear items: seals, bearings, strainers)
+
+================================================================================
+SECTION 4: SERVICE SCHEDULE & INTERVAL SUMMARY
+================================================================================
+
+SCHEDULED MAINTENANCE INTERVALS (Per Grundfos Recommendations)
+
+Quarterly Inspection (Every 3 months or 500 operating hours):
+  - Visual inspection for leaks (drain line, seal cavity, flange areas)
+  - Pressure gauge reading verification (compare to baseline)
+  - Temperature reading (normal range 50-55°C)
+  - Audible check (listen for abnormal noise)
+  - Cost: INR 0 (inspection only, no parts)
+
+Semi-Annual Maintenance (Every 6 months or 1,000 operating hours):
+  - Oil top-up (if required, <2.3 L per change)
+  - Filter element inspection (change if pressure drop >2.5 bar)
+  - Bearing inspection (listen for grinding, measure vibration)
+  - Seal leakage measurement (count drops per minute)
+  - Cost: INR 2,000-4,000 (depending on parts replacement)
+
+Annual Maintenance (Every 12 months):
+  - Hydrostatic pressure test (25 bar x 10 minutes, verify no leakage)
+  - Relief valve calibration verification (±1 bar accuracy)
+  - Pressure gauge calibration (verify accuracy ±2%)
+  - Bearing clearance check (endplay measurement)
+  - Complete seal inspection (visual examination of drain line condition)
+  - Cost: INR 5,000-8,000
+
+Major Overhaul (Every 24 months or 2,000 operating hours):
+  - Complete pump disassembly
+  - Bearing replacement (preventive)
+  - Seal cartridge replacement (preventive, before failure)
+  - Impeller wear assessment (ultrasonic thickness or visual pitting)
+  - Shaft inspection (runout measurement, surface inspection)
+  - Complete assembly, leak test, operational test
+  - Cost: INR 12,000-15,000 (parts + labor)
+
+Extended Overhaul (Every 60 months or 5,000 operating hours):
+  - Complete pump re-manufacture (if applicable)
+  - Hose assembly replacement (5-year service life expiration)
+  - Cooler inspection and servicing
+  - Motor bearing re-lubrication (if not sealed)
+  - Cost: INR 25,000-35,000
+
+================================================================================
+END OF EXCERPT
+For complete manual documentation, contact Grundfos India Pvt. Ltd.
+Manual Edition: 3.0 | Last Updated: 2019-08 | Valid Until: 2024-08
+================================================================================

@@ -1,0 +1,759 @@
+================================================================================
+QUARTERLY INSPECTION REPORT - Q1 2024
+Steel Plant Unit A & Unit B Equipment
+Report Period: January 1 - March 31, 2024
+Inspection Authority: Rajesh Kumar, Senior Inspector (TECH-045)
+Report Date: 2024-04-05
+Report ID: INS-Q1-2024-001
+================================================================================
+
+EXECUTIVE SUMMARY
+
+Total Equipment Inspected: 12 units (Unit A: 7 units, Unit B: 5 units)
+Inspection Duration: 5 working days (January 15-19, 2024)
+Overall Pass Rate: 83% (10 of 12 units passed without corrective action)
+Units Requiring Attention: 2 units (PUMP-XYZ cavitation incident, MOTOR-HYD-002 seal degradation)
+Critical Issues Identified: 1 (Cavitation event in PUMP-XYZ, resolved on 2024-01-11)
+Major Issues Identified: 1 (Seal degradation in secondary system, preventive maintenance scheduled)
+Minor Issues: 3 (Relief valve calibration due, hose replacement window, training renewal needed)
+Compliance Status: 92% compliant with Factory Act Section 27 and ISO 4414
+
+================================================================================
+INSPECTION METHODOLOGY & SCOPE
+
+Inspection Standards Applied:
+  - Factory Act Section 27 (India) - Guarding and Equipment Safety
+  - ISO 4414 - Hydraulic Fluid Power Systems Safety
+  - PED 2014/68/EU - Pressure Equipment Directive (EU)
+  - ASME B31.1 - Pressure Piping Code
+  - Plant internal HSE policy and maintenance standards
+
+Inspection Approach:
+  1. Visual inspection of equipment structure, guards, and connections
+  2. Pressure measurement and gauge verification
+  3. Leak detection (optical and tactile methods)
+  4. Mechanical seal assessment (drain line observation)
+  5. Bearing condition assessment (vibration, noise, temperature)
+  6. Fluid analysis review (particle count, cleanliness, oxidation status)
+  7. Documentation review (maintenance records, calibration certificates)
+  8. Operational testing (if appropriate and safe)
+
+Inspectors: 
+  - Rajesh Kumar (TECH-045) - Lead inspector, senior technician
+  - Supporting technicians: Vikram Patel (TECH-028), Deepak Singh (TECH-033)
+
+Reporting Structure:
+  - Equipment-by-equipment detailed findings
+  - Pass/fail rating per item
+  - Recommendations for corrective action
+  - Timeline for implementation
+
+================================================================================
+DETAILED INSPECTION FINDINGS BY EQUIPMENT
+================================================================================
+
+UNIT A EQUIPMENT INVENTORY & INSPECTION RESULTS
+
+---
+
+EQUIPMENT 1: PUMP-XYZ (Grundfos SPM 150-11 / 4.0 kW-90)
+Equipment ID: PUMP-XYZ-2019
+Location: Unit A - Coolant Circulation System
+Installation Date: 2019-08-22
+Inspection Date: 2024-01-18
+Inspector: Rajesh Kumar (TECH-045)
+Inspection Time: 2.0 hours
+
+OPERATIONAL HISTORY DURING Q1 2024:
+  Operating hours since last major service: 1,200 hours
+  Last major maintenance: 2024-02-18 (annual overhaul, seal replacement)
+  Operating status at inspection: OPERATIONAL (post-cavitation recovery)
+  Critical incident during quarter: Cavitation event on 2024-01-11 (4 PM investigation completed by 2024-01-16)
+
+INSPECTION FINDINGS:
+
+Visual Inspection:
+  [✓] PASS - Pump body condition: No visible cracks, corrosion, or dents
+  [✓] PASS - Coupling guard: Firmly secured, 4 bolts tight, no damage
+  [✓] PASS - Foundation mounting: All 4 foundation bolts hand-tested, secure
+  [✓] PASS - Painted finish: Epoxy/polyurethane coating intact, no rust visible
+  [✓] PASS - Drain line: Thin rubber hose, no kinked sections, mounting secure
+
+Pressure Measurement:
+  [✓] PASS - Discharge pressure gauge: Reading 19.5 bar (nominal, within 18-20 bar operating range)
+  [✓] PASS - Inlet pressure gauge: Reading 2.2 bar (suction pressure adequate, >1.5 bar threshold)
+  [✓] PASS - Pressure stability: Gauge needle steady (no fluctuation >0.5 bar observed during 5-min test)
+  [✓] PASS - Pressure relief valve: Set at 32 bar (verified against calibration certificate dated 2024-08-15)
+
+Seal Integrity:
+  [✓] PASS - Drain line leakage: 3 drops per minute observed (within acceptable <5 drops/min limit)
+  [✓] PASS - No visible spray or stream: Seals performing normally
+  [✓] PASS - Seal age: Recently replaced 2024-02-18 (fresh condition, 6 weeks old)
+  [✓] PASS - Primary seal (NBR): No discoloration, no degradation observed
+  [✓] PASS - Secondary seal (FKM): No visible wear, no thermal damage noted
+
+Bearing & Mechanical Assessment:
+  [✓] PASS - Vibration level: Measured 5.8 mm/s RMS (excellent, <6 mm/s zone A per ISO 10816-1)
+  [✓] PASS - Bearing temperature: Infrared thermometer reading 54°C (normal operating range 45-65°C)
+  [✓] PASS - Audible noise: Consistent hydraulic whine, no grinding or abnormal sounds
+  [✓] PASS - Coupling rotation: Smooth rotation without wobble (runout visual estimate <0.05 mm)
+  [✓] PASS - Shaft deflection: Within tolerance (no observable eccentricity during rotation)
+
+Fluid & System Analysis:
+  [✓] PASS - Reservoir fluid level: At MAX mark on gauge (adequate, no top-up required)
+  [✓] PASS - Fluid clarity: Clear to light amber (no darkening indicating oxidation)
+  [✓] PASS - Fluid analysis results (2024-01-15):
+          - ISO 4406 cleanliness: 16/14/11 (target achieved)
+          - Water content: 185 ppm (acceptable <300 ppm)
+          - Acid number (TAN): 0.28 mg KOH/g (acceptable <0.5, target <0.3)
+          - Viscosity: 32.5 cSt at 40°C (specification 28.8-35.2 cSt, PASS)
+  [✓] PASS - Inlet strainer: Recent replacement 2024-01-11 (post-cavitation cleanup)
+  [✓] PASS - Return filter: Replaced 2024-02-18 (age 1.5 months, estimated 1,200 hours life remaining)
+
+Temperature Monitoring:
+  [✓] PASS - Operating temperature: Infrared measurement 54°C at pump outlet (normal 50-55°C range)
+  [✓] PASS - Temperature trend: Stable during 20-minute observation (no rapid rise)
+  [✓] PASS - Cooler operation: Fan running when temperature >54°C setpoint (verified audible)
+  [✓] PASS - No thermal alarms: Temperature well below 60°C alarm threshold
+  [⚠] OBSERVATION - Cooler upgrade pending (ACTION 2 from incident report): New 20 kW cooler on order, due 2024-03-15
+
+Electrical & Control System:
+  [✓] PASS - Main breaker accessible and functional (toggle action smooth, no sticking)
+  [✓] PASS - Emergency stop button: Tested in RESET position, electrical contact audible click
+  [✓] PASS - Motor power supply: 3-phase voltage balanced (L1-L2: 228V, L2-L3: 229V, L1-L3: 227V)
+  [✓] PASS - Motor FLC (Full Load Current): Measured 6.4 A (rated 6.5 A, excellent efficiency)
+  [✓] PASS - Control panel labeling: All switches labeled, emergency procedures posted
+
+Documentation & Certifications:
+  [✓] PASS - Maintenance log current: 5 events documented 2023-2024, all dated and signed
+  [✓] PASS - Equipment specification sheet: Available and current (Rev C, 2024-01-20)
+  [✓] PASS - Pressure test certificate: Hydrostatic test 2024-02-18, 25 bar x 10 min, PASSED
+  [✓] PASS - Relief valve calibration: TÜV certificate dated 2024-08-15 (valid until 2024-08-15)
+  [✓] PASS - Incident report: Investigation completed and filed (INC-2024-001-PUMP-XYZ)
+  [✓] PASS - SOP documentation: SOP-42A posted in pump room (Rev 2.1, 2024-02-01)
+
+INCIDENT REVIEW (Cavitation Event 2024-01-11):
+  Event Summary: Cavitation detected 2024-01-11 10:32 AM, resolved by 11:30 AM (45-minute duration)
+  Root Cause: Inlet strainer blockage (80% occlusion), exacerbated by elevated bulk oil temperature
+  Resolution Timeline: Immediate pump shutdown, strainer cleaning, inlet pressure verification
+  Seal Protection: Pressure-balanced seal design protected mechanical seals from cavitation damage
+  Bearing Condition Post-Incident: Excellent (no detectable damage from cavitation)
+  Impeller Wear Assessment: Micro-pitting visible on inlet vane edges (<0.1 mm depth - minor)
+  Post-Incident Actions: 6 preventive actions implemented (see incident report)
+    - Strainer interval reduced to 1,000 hours (from 1,500 hours)
+    - Temperature monitoring enhanced with 58°C alarm
+    - Cooler upgrade on order (20 kW, due 2024-03-15)
+    - Operator training on cavitation recognition scheduled
+    - Inlet pressure transmitter installation planned (2024-03-30)
+    - Accelerated inspection frequency implemented
+
+Compliance Assessment:
+  [✓] Factory Act Section 27: COMPLIANT (all guards, interlocks, emergency procedures in place)
+  [✓] ISO 4414: COMPLIANT (pressure relief, filtration, seal design, operating parameters all within spec)
+  [✓] PED Directive: COMPLIANT (CE marking visible, TÜV certificate current)
+
+OVERALL RATING: ✓ PASS - Equipment operational, post-incident recovery excellent
+
+Recommendations:
+  1. Continue enhanced monitoring schedule through 2024-02-15 (30-day post-incident verification)
+  2. Maintain new strainer replacement interval of 1,000 hours (confirm operationally acceptable)
+  3. Complete cooler upgrade installation by 2024-03-15 (improves thermal margin)
+  4. Schedule operator training on cavitation symptoms by 2024-02-28
+  5. Install continuous inlet pressure monitoring by 2024-03-30 (DCS integration)
+  6. Review bulk oil oxidation trends quarterly (acid number monitoring)
+
+Next Inspection Due: 2024-04-18 (1 month from this inspection, accelerated schedule due to incident)
+
+---
+
+EQUIPMENT 2: HYDRAULIC PUMP MOTOR (Siemens 1LA7-106-2AA10-Z)
+Equipment ID: PUMP-XYZ-MOTOR-001
+Model: 1LA7-106-2AA10-Z (4.0 kW, 1450 RPM, 3-phase, 50 Hz)
+Location: Unit A - Adjacent to PUMP-XYZ
+Inspection Date: 2024-01-18
+Inspector: Vikram Patel (TECH-028)
+Inspection Time: 1.5 hours
+
+INSPECTION FINDINGS:
+
+Visual Inspection:
+  [✓] PASS - Motor enclosure: IP54 rating maintained (dust/water splash protected)
+  [✓] PASS - Terminal box: Sealed, no moisture or corrosion visible
+  [✓] PASS - Motor cooling fins: Clean, not clogged with debris
+  [✓] PASS - Nameplate markings: Legible, all specifications visible
+
+Electrical Safety:
+  [✓] PASS - Insulation resistance test (megohm): 45 megaohms (specification >10 MΩ, PASS)
+  [✓] PASS - Phase-to-phase voltage: Balanced (L1-L2: 228V, L2-L3: 229V, L1-L3: 227V)
+  [✓] PASS - Motor running current: 6.4 A measured (rated 6.5 A, efficient operation)
+  [✓] PASS - Thermal overload relay: Calibrated at 6.5 A (motor FLC, properly set)
+  [✓] PASS - Motor disconnect: Accessible, working smoothly (no stickiness)
+
+Mechanical Condition:
+  [✓] PASS - Bearing temperature (DE side): 52°C infrared (normal, <65°C limit)
+  [✓] PASS - Bearing temperature (NDE side): 50°C infrared (normal range)
+  [✓] PASS - Motor vibration: 5.2 mm/s RMS (excellent, <6 mm/s zone A)
+  [✓] PASS - Motor noise: Normal electrical hum, no grinding or unusual sounds
+  [✓] PASS - Coupling bolts: All 4 bolts hand-tight, no looseness
+
+Soft Starter (if equipped):
+  [✓] PASS - Soft starter panel: No fault lights illuminated (green status light on)
+  [✓] PASS - Soft starter inrush current limiting: Functional (reduces peak start current)
+  [✓] PASS - Soft starter cooling: Fan operational, heat sink temperature normal
+
+Certification Status:
+  [✓] PASS - IEC 60034-1 compliance: CE marking visible, compliant design
+  [✓] PASS - Last electrical inspection: 2023-12-10 (annual certification, due for renewal by 2024-12-10)
+  [✓] PASS - Motor insulation class: F (155°C max operating temperature adequately rated)
+
+OVERALL RATING: ✓ PASS - Motor in excellent condition
+
+Recommendations:
+  1. Schedule annual electrical safety inspection by 2024-12-10 (due date approaching mid-year)
+  2. Continue quarterly bearing temperature monitoring
+  3. No immediate action required
+
+Next Inspection Due: 2024-04-18
+
+---
+
+EQUIPMENT 3: INLET STRAINER & FILTRATION SYSTEM
+Equipment ID: PUMP-XYZ-INLET-STRAINER-001
+Strainer Type: 40-micron cartridge element (Hydac RFBN/HC110)
+Location: Unit A - Inlet line, ~1.5 meters upstream of pump
+Installation Date: 2024-01-11 (replaced post-cavitation incident)
+Inspection Date: 2024-01-19
+Inspector: Deepak Singh (TECH-033)
+Inspection Time: 0.5 hours
+
+INSPECTION FINDINGS:
+
+Strainer Condition:
+  [✓] PASS - Cartridge age: 8 days old (very fresh, replaced during incident response)
+  [✓] PASS - Visual inspection: Element appears clean, no visible blockage
+  [✓] PASS - Strainer housing: No leaks around cartridge seal area
+  [✓] PASS - Housing threads: Undamaged, element seating firm
+
+Pressure Assessment:
+  [✓] PASS - Inlet pressure baseline: 2.2 bar at inlet pump (suction adequate)
+  [✓] PASS - Strainer pressure drop: Estimated <0.3 bar (calculated from inlet-outlet gauge)
+  [✓] PASS - Bypass valve functionality: Setpoint 3.5 bar (no bypass flow occurring at operating pressure)
+
+System Integration:
+  [✓] PASS - Strainer supply hose: DN 50, no kinks or restrictions
+  [✓] PASS - Discharge to pump: Clean connection, no debris visible
+  [✓] PASS - Drain configuration: Proper gravity return to tank (no backup pressure on strainer)
+
+Change Schedule Assessment:
+  [✓] NEW INTERVAL IMPLEMENTED - Changed from 1,500 hours to 1,000 hours
+  - Reasoning: Steel plant thermal environment (45-50°C ambient, hot return oil 55-60°C)
+  - Accelerated oxidation generates particulates faster than baseline
+  - Previous strainer: 1,247 hours at 83% blockage threshold (17% safety margin inadequate)
+  - Next scheduled replacement: Approximately 2,000 operating hours from this inspection (estimate June 2024)
+
+OVERALL RATING: ✓ PASS - Strainer functioning excellently
+
+Recommendations:
+  1. Monitor inlet pressure trend monthly (establish baseline for future blockage detection)
+  2. Implement 1,000-hour replacement interval starting from 2024-01-11 reference
+  3. Next strainer change scheduled for ~1,000 operating hours (June 2024 estimated)
+  4. Archive this baseline strainer element for visual comparison at next change
+
+Next Inspection Due: 2024-04-18
+
+---
+
+EQUIPMENT 4: RETURN FILTRATION SYSTEM (10-micron filter)
+Equipment ID: PUMP-XYZ-RETURN-FILTER-001
+Filter Type: 10-micron cartridge element
+Location: Unit A - Return line, ~3 meters before tank
+Installation Date: 2024-02-18 (installed during annual overhaul)
+Inspection Date: 2024-01-19
+Inspector: Deepak Singh (TECH-033)
+Inspection Time: 0.5 hours
+
+INSPECTION FINDINGS:
+
+Filter Element Condition:
+  [✓] PASS - Element age: 1 month, 7 days old (recent installation during major maintenance)
+  [✓] PASS - Element cleanliness: Appears clean, no visible blockage
+  [✓] PASS - Filter bypass status: No bypass light illuminated (element not clogged)
+  [✓] PASS - Element seating: Firm, no leakage around seal area
+
+Return Flow Assessment:
+  [✓] PASS - Return line velocity: Approximately 1.5 m/s (within recommended 1.0-2.0 m/s range)
+  [✓] PASS - No backpressure on pump: Return line flow unrestricted (<2 bar backpressure measured)
+  [✓] PASS - Tank return hose: No kinks, gravity feed to tank proper (inlet below fluid level)
+
+Filter Performance:
+  [✓] PASS - Filtration effectiveness: System cleanliness ISO 16/14/11 (achieved per 2024-01-15 analysis)
+  [✓] PASS - No contamination bypass: Bypass element not activated (operating pressure normal)
+  [✓] PASS - Service life estimate: ~1,200 operating hours remaining (based on typical 1,500-hour life)
+
+OVERALL RATING: ✓ PASS - Return filter in excellent condition
+
+Recommendations:
+  1. Monitor bypass valve differential pressure monthly (trending data useful for life estimation)
+  2. Schedule filter replacement by June 2024 (1,500-hour service life expiration)
+  3. Compare old vs. new filter element at next change for visual wear assessment
+  4. Maintain ISO 16/14/11 target cleanliness level
+
+Next Filter Change Scheduled: June 2024 (estimated 1,000+ operating hours from Feb installation)
+
+Next Inspection Due: 2024-04-18
+
+---
+
+EQUIPMENT 5: HYDRAULIC PIPING & HOSE ASSEMBLY
+Piping Type: Steel welded pipe (2" inlet, 1.5" outlet) + EN 286 4SP hose assemblies
+Location: Unit A - Pump suction, discharge, and return lines
+Installation Date: 2019-08-22
+Inspection Date: 2024-01-19
+Inspector: Rajesh Kumar (TECH-045)
+Inspection Time: 1.5 hours
+
+INSPECTION FINDINGS:
+
+Visual Hose Condition:
+  [✓] PASS - Inlet hose (3.5m): No cracks, splits, or abrasion damage visible
+  [✓] PASS - Outlet hose (2.8m): Outer sleeve intact, no delamination
+  [✓] PASS - Return hose (5.0m): Clean, no signs of wear or rubbing
+  [✓] PASS - All hoses: Proper routing, well-supported by clamps, no contact with sharp edges
+
+Hose Clamping & Connections:
+  [✓] PASS - Inlet clamps: 3 clamps, all hand-tight (no movement detected)
+  [✓] PASS - Outlet clamps: 3 clamps, secure fastening verified
+  [✓] PASS - Return clamps: 4 clamps, even tension observed
+  [✓] PASS - Flange connections: ISO 4401 NG10 bolts, all hand-tested tight
+
+Pipe Weld Integrity:
+  [✓] PASS - Inlet weld (2" pipe): Visual inspection - smooth weld, no cracks or corrosion
+  [✓] PASS - Outlet weld (1.5" pipe): Weld bead uniform, no signs of stress corrosion
+  [✓] PASS - Return weld: Weld integrity excellent, surface clean
+  [✓] PASS - All welds: Painted finish intact, no rust at weld zones
+
+Pressure Test History:
+  [✓] PASS - Last pressure test: 2024-02-18 (hydrostatic test, 25 bar x 10 min, PASSED)
+  [✓] PASS - Test certificate on file: Valid and current
+
+Hose Service Life Assessment:
+  [✗] ⚠ REQUIRES PLANNING - Hose age assessment
+  - Installation date: 2019-08-22
+  - Current date: 2024-01-18
+  - Age: 4 years 4.5 months
+  - Service life limit (EN 285): 5 years maximum
+  - Due date: 2024-08-22 (6 months remaining)
+  - Action: Plan hose replacement for next scheduled shutdown (Q2-Q3 2024)
+
+Fluid Bypass & Flushing Ports:
+  [✓] PASS - Bleed/flushing port on discharge manifold: Accessible, ball valve operational
+  [✓] PASS - System flushing capability: Adequate for 40-micron filtration bypass
+
+OVERALL RATING: ✓ PASS (with planned action for hose replacement)
+
+Recommendations:
+  1. **SCHEDULE HOSE REPLACEMENT BY 2024-08-22** (5-year service life expiration)
+     - Estimated downtime: 4 hours
+     - Estimated cost: INR 12,000 (materials + labor)
+     - Procedure: Drain system, remove old hoses, install new EN 286 4SP assemblies, pressure test at 25 bar
+  2. Document hose batch numbers for traceability
+  3. Perform pressure test after hose replacement (verify 25 bar x 10 min, zero leakage)
+  4. Continue quarterly visual inspection monitoring
+
+Next Inspection Due: 2024-04-18
+Hose Replacement Due: By 2024-08-22
+
+---
+
+EQUIPMENT 6: PRESSURE RELIEF VALVE (ATOS DHRZ-A-030-210)
+Equipment ID: PUMP-XYZ-RELIEF-VALVE-001
+Relief Type: Pilot-operated relief valve, pressure-reducing design
+Location: Unit A - Manifold, downstream of pump discharge
+Installation Date: 2019-08-22
+Inspection Date: 2024-01-18
+Inspector: Rajesh Kumar (TECH-045)
+Inspection Time: 1.0 hour
+
+INSPECTION FINDINGS:
+
+Physical Inspection:
+  [✓] PASS - Valve body condition: No visible cracks, corrosion, or mechanical damage
+  [✓] PASS - Valve mounting: Securely bolted to manifold, no looseness detected
+  [✓] PASS - Drain port: Hose routed properly to tank, free drainage observed
+  [✓] PASS - Pressure gauge connection: Gauge reading 32 bar at normal operating pressure (nominal)
+
+Operational Testing:
+  [✓] PASS - Pressure test (manual pump verification):
+        - System pressurized to 30 bar: Relief stable (no discharge flow)
+        - System pressurized to 31 bar: Relief stable with minimal cracking
+        - System pressurized to 32.5 bar: Relief fully opened (discharge flow confirmed)
+        - Test result: PASS (valve operating within ±1.5 bar specification)
+  [✓] PASS - No audible leakage: Valve silent at full operating pressure
+  [✓] PASS - Pilot line: Pressure equalization pilot signal confirms valve responsive
+
+Calibration Status:
+  [⚠] EXPIRES 2024-08-15 - Relief valve calibration certificate
+  - Last calibration date: 2024-08-15 (performed by TÜV Süd AG)
+  - Calibration validity: 12 months (expires 2024-08-15)
+  - Current date: 2024-01-18 (7 months remaining)
+  - Next recalibration required by: 2024-08-10
+
+Seal & Leakage Assessment:
+  [✓] PASS - External seal integrity: No leakage observed at valve body drain
+  [✓] PASS - Valve internal leakage: <0.1 mL/min (imperceptible, within spec)
+  [✓] PASS - Manifold interface seals: No leakage at bolt connections
+
+OVERALL RATING: ✓ PASS (⚠ Calibration expires 2024-08-15)
+
+Recommendations:
+  1. **SCHEDULE CALIBRATION BY 2024-08-10** (before 2024-08-15 expiration)
+     - Vendor recommendation: TÜV Süd AG (performed previous calibration)
+     - Estimated cost: INR 3,500 (calibration service)
+     - Lead time: 4 working days
+     - Book appointment by mid-July 2024 to ensure completion before deadline
+  2. If recalibration cannot be performed: Maintain spare ATOS cartridge in inventory (P/N DHRZ-A-030-210)
+  3. Continue monthly pressure verification (compare gauge reading to baseline)
+  4. Document all calibration results for compliance file
+
+Next Inspection Due: 2024-04-18
+Calibration Recertification Due: 2024-08-10
+
+---
+
+EQUIPMENT 7: HYDRAULIC FLUID RESERVOIR (250-liter tank)
+Equipment ID: PUMP-XYZ-TANK-001
+Capacity: 250 liters
+Location: Unit A - Northeast corner of pump room
+Installation Date: 2019-08-22
+Inspection Date: 2024-01-18
+Inspector: Deepak Singh (TECH-033)
+Inspection Time: 1.0 hour
+
+INSPECTION FINDINGS:
+
+Tank Structural Condition:
+  [✓] PASS - Tank body: No cracks, dents, or corrosion visible
+  [✓] PASS - Tank welds: All weld seams inspected - no cracks, proper penetration
+  [✓] PASS - Tank base: No accumulated sludge observed (inspected via drain plug)
+  [✓] PASS - Tank coating: Epoxy finish intact, no peeling or rust
+
+Tank Ancillaries:
+  [✓] PASS - Filler cap: Intact, sealed to prevent contamination
+  [✓] PASS - Filler screen (40 micron): Clean, not clogged
+  [✓] PASS - Drain plug: Functional (manual tested opening/closing without leakage)
+  [✓] PASS - Tank vent filter: Clean, breathing audible during pump operation
+
+Internal Baffle Plate:
+  [✓] PASS - Baffle present and intact: Separates return side (left) from suction side (right)
+  [✓] PASS - Return flow routing: Fluid returns to left side, circulates to suction inlet properly
+  [✓] PASS - Suction inlet submerged: Inlet strainer inlet tube below fluid level (prevents air entry)
+
+Fluid Level & Condition:
+  [✓] PASS - Level gauge visibility: Transparent tube gauge, MAX mark clearly visible
+  [✓] PASS - Current level: At MAX mark (approximately 200 liters)
+  [✓] PASS - Fluid appearance: Clear to light amber (no darkening or cloudiness)
+  [✓] PASS - Fluid cleanliness: ISO 4406 16/14/11 (verified per 2024-01-15 analysis)
+  [✓] PASS - Water content: 185 ppm (acceptable <300 ppm, within target)
+  [✓] PASS - Oxidation status (TAN): 0.28 mg KOH/g (acceptable <0.5)
+
+Temperature Control:
+  [✓] PASS - Cooler integration: Integrated inlet/outlet ports functioning
+  [✓] PASS - Cooler thermostat setpoint: 50°C (operator observed fan cycling behavior correct)
+  [✓] PASS - Cooler outlet hose: Warm to touch, indicating cooler operation
+
+Contamination Prevention:
+  [✓] PASS - Area around tank: Clean, no external debris or spill risk
+  [✓] PASS - Tank secondary containment: Floor drains configured, spill kit nearby
+  [✓] PASS - Refill procedure: ISO VG 32 stored in sealed containers (proper storage)
+
+OVERALL RATING: ✓ PASS - Reservoir in excellent condition
+
+Recommendations:
+  1. Continue monthly fluid level checks (maintain between MIN and MAX marks)
+  2. Quarterly fluid analysis per ISO 4406 standard (current schedule adequate)
+  3. Annual tank interior inspection (no date-driven need at this time)
+  4. Monitor fluid color trend (darkening indicates accelerated oxidation)
+
+Next Inspection Due: 2024-04-18
+
+---
+
+UNIT B EQUIPMENT INVENTORY & INSPECTION RESULTS
+
+[Unit B contains 5 additional equipment units - summarized below for brevity]
+
+---
+
+EQUIPMENT 8: MOTOR-HYD-002 (Secondary circulation motor, 2.2 kW)
+Equipment ID: MOTOR-HYD-002
+Model: ABB 3-phase motor, 2.2 kW, 1450 RPM
+Location: Unit B - Cooling tower circulation
+Inspection Date: 2024-01-19
+Inspector: Vikram Patel (TECH-028)
+
+FINDINGS SUMMARY:
+  [✓] PASS - Motor operation: Functional, normal electrical characteristics
+  [⚠] CAUTION - Seal degradation observed: Mechanical seal drain line shows 8-10 drops per minute (threshold is <5)
+  [!] RECOMMENDATION - Schedule seal replacement: FKM seal showing thermal degradation (temperature cycling stress)
+
+Corrective Action Required:
+  - Timeline: Schedule seal replacement within 6 weeks (preventive, before failure)
+  - Estimated downtime: 3 hours
+  - Estimated cost: INR 4,500 (seal kit + labor)
+  - Target date: By 2024-03-15
+
+OVERALL RATING: ⚠ CONDITIONAL PASS - Operational but require preventive maintenance
+
+---
+
+EQUIPMENT 9-12: UNIT B AUXILIARY EQUIPMENT
+[Electrical distribution panel, secondary pump, cooler, miscellaneous piping]
+
+FINDINGS:
+  [✓] All auxiliary equipment: PASS (no issues identified)
+  [✓] Electrical distribution: Compliant with Factory Act Section 27
+  [✓] Secondary pump: Operational, pressure/temperature within nominal ranges
+  [✓] Cooler: Functional, temperature control adequate
+
+---
+
+================================================================================
+SECTION 2: OVERALL COMPLIANCE ASSESSMENT
+================================================================================
+
+COMPLIANCE MATRIX (Factory Act Section 27 + ISO 4414)
+
+Compliance Item                          Status    Rating   Notes
+─────────────────────────────────────────────────────────────────────────────
+Equipment Guarding (rotating/pressure)   PASS      ✓       All guards present, secure
+Electrical Safety (lockout/tagout)       PASS      ✓       Procedures documented, training current
+Pressure Relief & Protection             PASS      ✓       Relief set at 32 bar, operational (caveat: calibration expires 08/15)
+Seal Integrity & Leakage Control         PASS      ✓       All seals within acceptable limits except MOTOR-HYD-002
+Fluid Cleanliness & Maintenance          PASS      ✓       ISO 16/14/11 achieved, regular analysis conducted
+Operator Training & Authorization        CAUTION   ⚠       Refresher training due by 2024-10-15
+Maintenance Documentation                PASS      ✓       Comprehensive logs maintained, incidents documented
+Incident Investigation & Remediation     PASS      ✓       Cavitation incident fully investigated, 6 preventive actions implemented
+
+SUMMARY RESULTS:
+
+Equipment Inspected:          12 units
+PASS (No action):              10 units (83%)
+CONDITIONAL PASS (Action):     2 units (17%)
+FAIL (Non-compliant):          0 units
+
+Critical Issues:                0 (none identified requiring immediate halt)
+Major Issues:                   1 (MOTOR-HYD-002 seal degradation - preventive action scheduled)
+Minor Issues:                   3 (Relief calibration expires 08/15, hose replacement due 08/22, training due 10/15)
+
+Overall Compliance Rating:      92% COMPLIANT with Factory Act Section 27 & ISO 4414
+
+Non-Compliance Items:
+  1. Relief valve calibration expires 2024-08-15 (action required: schedule by 2024-08-10)
+  2. Hose service life expires 2024-08-22 (action required: schedule replacement by 2024-08-15)
+  3. Operator refresher training due 2024-10-15 (action required: schedule training by 2024-10-01)
+  4. MOTOR-HYD-002 seal degradation (action required: preventive replacement by 2024-03-15)
+
+================================================================================
+SECTION 3: INCIDENT IMPACT ASSESSMENT
+
+Cavitation Incident (2024-01-11):
+  Status: RESOLVED
+  Impact on Equipment: Minor (micro-pitting on impeller inlet vanes, <0.1 mm depth)
+  Damage Assessment: No critical damage, all seals intact, bearings unaffected
+  Root Cause: Inlet strainer blockage + elevated bulk oil temperature (thermal environment specific)
+  Preventive Actions: 6 actions implemented, all on track for completion
+  Monitoring Status: Accelerated inspection schedule in effect (monthly through 2024-02-15)
+  Lessons Learned: Applicable to future hot-environment industrial applications
+  Equipment Confidence Level: HIGH (post-incident recovery excellent, enhanced monitoring active)
+
+Impact on Q1 2024 Operations:
+  - Downtime: 1 hour (2024-01-11)
+  - Planned vs. Actual Maintenance: 1 unplanned cavitation response event (otherwise on schedule)
+  - Cost Impact: INR 3,200 (incident response) vs. estimated INR 45,000+ if allowed to continue unchecked
+  - ROI: 14:1 cost avoidance ratio
+
+================================================================================
+SECTION 4: CORRECTIVE ACTION TRACKING
+
+CRITICAL ACTIONS (Expiring 2024):
+
+ACTION 1: Relief Valve Calibration Recertification
+  Priority: HIGH
+  Due Date: 2024-08-10 (book appointment by this date)
+  Completion Target: 2024-08-15 (before expiration)
+  Owner: Maintenance supervisor
+  Vendor: TÜV Süd AG
+  Cost: INR 3,500
+  Status: OPEN (no action taken as of 2024-01-20)
+  **ACTION REQUIRED: Contact TÜV for scheduling in mid-July 2024**
+
+ACTION 2: Hydraulic Hose Replacement (5-Year Service Life)
+  Priority: MEDIUM
+  Due Date: 2024-08-22 (service life expiration)
+  Completion Target: 2024-08-20 (before expiration)
+  Owner: Senior technician TECH-028
+  Scope: Replace inlet (3.5m), outlet (2.8m), return (5.0m) hose assemblies
+  Cost: INR 12,000
+  Downtime: 4 hours
+  Status: OPEN (planning phase)
+  **ACTION REQUIRED: Schedule for next planned shutdown (Q2-Q3 2024)**
+
+ACTION 3: Operator Refresher Training Recertification
+  Priority: MEDIUM
+  Due Date: 2024-10-15 (certification expiration)
+  Completion Target: 2024-10-01 (schedule before due date)
+  Owner: Senior technician TECH-012
+  Participants: 4 shift supervisors + 8 operators (12 total)
+  Duration: 4 hours per group
+  Cost: INR 2,400
+  Status: OPEN (not yet scheduled)
+  **ACTION REQUIRED: Book training sessions by 2024-09-01**
+
+ACTION 4: MOTOR-HYD-002 Seal Preventive Replacement
+  Priority: MEDIUM
+  Due Date: 2024-03-15 (preventive, before failure)
+  Owner: Senior technician TECH-033
+  Seal Type: FKM secondary seal (thermal degradation risk)
+  Cost: INR 4,500
+  Downtime: 3 hours
+  Status: OPEN (planning phase)
+  **ACTION REQUIRED: Schedule with maintenance within 6 weeks**
+
+ACTION 5: Post-Cavitation Incident Monitoring (Enhanced Schedule)
+  Priority: MEDIUM
+  Start Date: 2024-01-11
+  Duration: 30 days (through 2024-02-10)
+  Scope: Daily pressure checks (2024-01-11 to 01-25), weekly checks (01-26 to 02-10)
+  Owner: All shift operators and maintenance technicians
+  Status: IN PROGRESS
+  **MONITORING CONTINUING: Data logged daily, trend analysis by 2024-02-15**
+
+ACTION 6: Bulk Oil Cooler Upgrade Installation
+  Priority: MEDIUM
+  Due Date: 2024-03-15 (per incident report ACTION 2)
+  Scope: Replace 15 kW cooler with 20 kW cooler, install thermostat valve
+  Cost: INR 43,000 (cooler INR 35,000 + valve/installation INR 8,000)
+  Expected Benefit: Reduce operating temperature to <52°C (improves seal life and reliability)
+  Status: IN PROGRESS (new cooler ordered, delivery expected 2024-03-01)
+  **COOLER DELIVERY PENDING: Schedule installation upon arrival (by 2024-03-15)**
+
+================================================================================
+SECTION 5: RECOMMENDATIONS & FOLLOW-UP
+
+Short-Term Recommendations (Next 30 days - by 2024-02-18):
+
+1. **Post-Cavitation Monitoring Conclusion**
+   - Complete 30-day enhanced monitoring schedule (in progress)
+   - Compile trend analysis of pressure readings (daily logs)
+   - Verify no recurrence of cavitation symptoms
+   - Formally close incident file by 2024-02-15 if no issues detected
+
+2. **Cooler Upgrade Implementation**
+   - Confirm delivery of new 20 kW cooler (expected ~2024-03-01)
+   - Schedule installation during planned maintenance window
+   - Conduct pressure/temperature verification after installation
+   - Document performance improvement in operating logs
+
+3. **Motor-HYD-002 Seal Replacement Planning**
+   - Schedule seal replacement by 2024-03-15 (preventive action)
+   - Procure FKM seal kit (INR 4,500)
+   - Coordinate with Unit B operations for 3-hour downtime window
+
+Medium-Term Recommendations (30-90 days - Q2 2024):
+
+4. **Operator Training Program**
+   - Schedule refresher training for all 12 personnel (4-hour module)
+   - Target: Complete by 2024-10-15 (before certification expiration)
+   - Include enhanced cavitation recognition training (post-incident addition)
+   - Document completion in training records
+
+5. **Continuous Pressure Monitoring Installation**
+   - Install inlet pressure transmitter (0-10 bar range) on PUMP-XYZ
+   - DCS integration (connect to plant Distributed Control System)
+   - Set alarm threshold: <1.0 bar (early cavitation warning)
+   - Target completion: 2024-03-30
+   - Cost: INR 18,000
+   - Expected benefit: Proactive cavitation prevention
+
+6. **Quarterly Compliance Review Scheduling**
+   - Establish Q2 2024 inspection date: 2024-04-18 (30 days post-Q1 report)
+   - Quarterly inspections serve as early-warning system for degradation trends
+   - Include trending analysis of key parameters (pressure, temperature, cleanliness)
+
+Long-Term Recommendations (Q3-Q4 2024):
+
+7. **Hose Replacement Execution**
+   - Schedule hose replacement by 2024-08-15 (5-year service life)
+   - Plan 4-hour downtime window
+   - Conduct full pressure test at 25 bar after replacement
+   - Archive old hoses for visual wear comparison
+
+8. **Relief Valve Calibration Recertification**
+   - Contact TÜV Süd for scheduling by 2024-08-10
+   - Complete recalibration before 2024-08-15 expiration
+   - Maintain continuous pressure monitoring during calibration absence
+
+9. **Annual Maintenance & Major Overhaul Planning**
+   - Next annual major service due: 2025-02-18 (12 months from 2024-02-18)
+   - Plan seal replacement, bearing inspection, hydrostatic test
+   - Budget: INR 12,000-15,000
+
+================================================================================
+SECTION 6: CONCLUSION & SIGN-OFF
+
+Q1 2024 Inspection Summary:
+  - 12 equipment units inspected over 5 working days (January 15-19, 2024)
+  - 10 units passed without corrective action (83% pass rate)
+  - 2 units conditional pass with remedial actions scheduled
+  - Overall compliance: 92% with Factory Act Section 27 and ISO 4414
+  - No equipment failures or critical safety issues identified
+  - One significant incident (cavitation) successfully remediated with 6 preventive actions
+
+Equipment Status Assessment:
+  - PUMP-XYZ: Operational, post-incident recovery excellent, enhanced monitoring active
+  - MOTOR-HYD-002: Operational, preventive seal replacement required by 2024-03-15
+  - All auxiliary equipment: Compliant, no action required
+
+Safety Assessment:
+  - No immediate hazards to personnel identified
+  - All guards, interlocks, and emergency procedures in place and functional
+  - Training status: Current (with refresher training due by 2024-10-15)
+  - Incident response procedures demonstrated effective (cavitation response excellent)
+
+Facility Compliance Status:
+  ✓ Factory Act Section 27 (India): COMPLIANT
+  ✓ ISO 4414 (International): COMPLIANT
+  ✓ PED Directive 2014/68/EU: COMPLIANT
+  ✓ Internal HSE Policy: COMPLIANT (with noted action items due later in 2024)
+
+Overall Conclusion:
+The steel plant Unit A and Unit B equipment inspected during Q1 2024 are in GOOD operational condition with appropriate maintenance schedules in place. The cavitation incident in PUMP-XYZ (January 2024) was thoroughly investigated and effectively remediated. Preventive actions implemented have strengthened the equipment reliability and operator safety awareness. Five follow-up actions are identified for completion by 2024-04-18, and six longer-term actions are scheduled through Q4 2024. 
+
+**RECOMMENDATION: Equipment safe for continued operation with enhanced monitoring and scheduled maintenance as outlined.**
+
+---
+
+INSPECTION APPROVAL & SIGN-OFF
+
+Lead Inspector: Rajesh Kumar (TECH-045), Senior Technician
+Date of Inspection: January 15-19, 2024
+Report Date: 2024-04-05
+Report Approved: Sandeep Deshmukh, Plant Engineering Manager
+
+Approved by: _________________________ Date: 2024-04-05
+           Sandeep Deshmukh
+           Plant Engineering Manager
+
+Next Quarterly Inspection: 2024-04-18 (30-day follow-up)
+Annual Compliance Recertification: 2025-01-20
+
+Distribution:
+  - Operations team (reference document)
+  - Maintenance team (action tracking)
+  - Safety committee (compliance verification)
+  - Plant manager (status reporting)
+  - Regulatory files (if required by local authority)
+
+================================================================================
+END OF REPORT
+================================================================================

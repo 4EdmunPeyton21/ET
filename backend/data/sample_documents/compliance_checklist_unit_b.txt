@@ -1,0 +1,570 @@
+================================================================================
+COMPLIANCE CHECKLIST - UNIT B EQUIPMENT CERTIFICATION
+Factory Act Section 27 & ISO 4414 Hydraulic Safety Compliance
+Facility: Steel Plant, Unit B
+Report Date: 2024-01-20
+Checklist ID: COMP-UNITB-2024-Q1
+Next Review Due: 2024-04-20
+================================================================================
+
+REGULATORY FRAMEWORK
+This compliance checklist verifies equipment adherence to:
+  1. Factory Act Section 27 (Government of India) - Guarding and Safety of Equipment
+  2. ISO 4414 (International Standard) - Hydraulic fluid power systems - General rules 
+     and safety
+  3. Pressure Equipment Directive 2014/68/EU (PED) - Design and safety (EU compliance)
+  4. ASME B31.1 - Code for Pressure Piping (Pressure design and installation)
+  5. Plant internal HSE policy and maintenance standards
+
+Inspecting Authority: Rajesh Kumar, Senior Inspector (TECH-045)
+Verification Witness: Sandeep Deshmukh, Plant Engineering Manager
+Date of Inspection: 2024-01-18 to 2024-01-20
+Inspection Duration: 3 days, 12 hours total time
+
+================================================================================
+SECTION 1: EQUIPMENT INVENTORY & CERTIFICATION STATUS
+================================================================================
+
+PUMP-XYZ (Grundfos SPM 150-11 / 4.0 kW-90)
+Equipment ID: PUMP-XYZ-2019
+Installation Date: 2019-08-22
+Location: Unit B Coolant Circulation System
+Current Status: OPERATIONAL
+
+Certification Records Review:
+[✓] CE Mark present on nameplate (Declaration of Conformity visible)
+[✓] PED Compliance Certificate (TÜV Süd, Certificate No. TUV-2019-08847, valid until 2024-12-31)
+[✓] ISO 4414 design compliance documentation on file
+[✓] Last hydrostatic pressure test: 2024-02-18 (25 bar x 10 min, PASSED)
+[✓] Manufacturer nameplate with pressure rating (25 bar / 362 PSI) visible and legible
+[✓] Serial number matching documentation (DK-RP-20190515-012847)
+
+MAINTENANCE CERTIFICATION STATUS:
+[✓] ISO 4414 annual inspection completed: 2024-01-20 (THIS INSPECTION)
+[✓] Seal maintenance record current: Last seal change 2024-02-18 (within 24-month interval)
+[✓] Hydraulic fluid cleanliness verified: ISO 4406 16/14/11 (2024-01-15 fluid analysis)
+[✓] Pressure relief valve calibration: Valid until 2024-08-15 (next calibration due)
+[✓] Inlet strainer element: Replaced 2024-01-11 (post-cavitation incident response)
+
+COMPLIANCE STATUS: ✓ COMPLIANT (All certifications current)
+Previous Non-Compliance Issues: Cavitation incident 2024-01-11 (RESOLVED with preventive actions)
+Next Certification Due: 2025-01-20 (Annual ISO 4414 inspection)
+
+---
+
+HYDRAULIC PUMP MOTOR (Electric Motor, 4.0 kW, 3-phase, 50 Hz)
+Equipment ID: PUMP-XYZ-MOTOR-001
+Manufacturer: Siemens (Germany)
+Model: 1LA7-106-2AA10-Z
+Horsepower: 5.5 HP (4.0 kW)
+Installation Date: 2019-08-22
+Current Status: OPERATIONAL
+
+Certification Records Review:
+[✓] CE Mark visible on motor nameplate
+[✓] Electrical safety certification (IEC 60034-1 compliant motor design)
+[✓] Thermal protection class: F (max operating temperature 155°C)
+[✓] Vibration class per ISO 20816-1: Group 2 (rigid motor foundation)
+[✓] Insulation resistance test (megger test): Last tested 2024-01-15
+    Result: 45 megaohms (acceptable >10 MΩ for this motor size)
+[✓] Three-phase connection: Balanced phase voltage (L1-L2: 228V, L2-L3: 229V, L1-L3: 227V)
+[✓] Thermal overload relay: Calibrated and set to 6.5A (motor rated current)
+
+SAFETY FEATURES:
+[✓] Emergency stop button accessible on control panel (red mushroom button)
+[✓] Motor disconnect switch (main breaker) accessible and labeled
+[✓] Motor coupling guard installed and secure (4 bolts, all hand-tight verified)
+[✓] Proximity sensor (motor running indicator) functional
+[✓] Audible warning horn for motor startup (tested - operational)
+
+COMPLIANCE STATUS: ✓ COMPLIANT (All electrical certifications current)
+Last Third-Party Electrical Inspection: 2023-12-10 (annual certification, valid until 2024-12-10)
+Next Electrical Certification Due: 2024-12-10 (by end of year)
+
+---
+
+HYDRAULIC PIPING & HOSE ASSEMBLY
+Piping Type: Steel welded pipe (1.5" and 2" diameter, SAE J518 Code 61 flanged connections)
+Hose Type: EN 856 4SP (4 spiral wire reinforced, pressure-rated 210 bar, operating 25 bar)
+Hose Length: Inlet 3.5 m, Outlet 2.8 m, Return 5.0 m
+Installation Date: 2019-08-22
+Current Status: OPERATIONAL
+
+Inspection Results:
+[✓] Visual inspection for leaks: PASS (no visible weeping or spray)
+[✓] Hose outer condition: PASS (no cracks, splits, or abrasion visible)
+[✓] Hose clamp tightness: PASS (all 12 clamps hand-tight, no looseness)
+[✓] Pipe weld integrity: PASS (visual inspection, no cracks or corrosion at welds)
+[✓] Flange connection tightness: PASS (all bolts hand-tested, secure)
+[✓] Pressure test certification: Last tested 2024-02-18 (25 bar, held 10 min - PASSED)
+[✓] Hose tag and installation date: Visible (2019-08-22, age 4 years 5 months - within 5-year life)
+
+PRESSURE RATING VERIFICATION:
+  Inlet line (2"): Rated 210 bar (hose) / 250 bar (coupling) - Safe for 25 bar operating
+  Outlet line (1.5"): Rated 210 bar (hose) / 280 bar (coupling) - Safe for 25 bar operating
+  Return line (2"): Rated 210 bar (hose) / 250 bar (coupling) - Safe for 25 bar operating
+
+COMPLIANCE STATUS: ✓ COMPLIANT (All hose and pipe ratings adequate, no replacement needed)
+Hose Replacement Schedule: Due 2024-08-22 (5-year service life end date)
+Note: Recommend planning hose replacement for next planned shutdown (Q3 2024)
+Estimated downtime: 4 hours, Estimated cost: INR 12,000 (parts + labor)
+
+---
+
+PRESSURE RELIEF VALVE (ATOS DHRZ-A-030-210)
+Equipment ID: PUMP-XYZ-RELIEF-001
+Setpoint: 32 bar (maximum safe pressure)
+Manufacturer: ATOS (Italy)
+Installation Date: 2019-08-22
+Mounting Location: Main manifold, downstream of pump discharge
+Current Status: OPERATIONAL
+
+Certification & Calibration:
+[✓] Relief valve present and accessible for inspection
+[✓] Pressure gauge showing current setpoint: 32 bar (verified with calibrated gauge)
+[✓] Last calibration date: 2024-08-15 (performed by TÜV Certified technician)
+[✓] Calibration certificate on file: Valid until 2024-08-15
+[✓] Valve operational test: Pump pressurized to 25 bar, relief valve silent (no leakage)
+[✓] Valve cracking pressure tolerance: ±1.5 bar acceptable per ATOS spec (verified 31.2 bar)
+
+MANUAL PRESSURE TEST:
+  Manual test with calibrated pump:
+  - Set pump outlet pressure to 30 bar: Relief valve stable (no discharge flow)
+  - Set pump outlet pressure to 31 bar: Relief valve stable (minimal cracking)
+  - Set pump outlet pressure to 32.5 bar: Relief valve fully cracked (discharge flow confirmed)
+  - Test result: PASS (valve operating within specification)
+
+COMPLIANCE STATUS: ⚠ REQUIRES ATTENTION - Relief valve calibration expires 2024-08-15
+Action Required: Schedule recalibration by 2024-08-10 (before expiration)
+Recommended Vendor: TÜV Süd (performed last calibration, 4-day turnaround)
+Cost Estimate: INR 3,500 (calibration service)
+Deadline: 2024-08-10 (Schedule now to avoid operational gap)
+
+---
+
+HYDRAULIC FLUID RESERVOIR & FILTRATION
+Reservoir Type: Steel tank, 250-liter capacity, atmospheric vent
+Reservoir ID: PUMP-XYZ-TANK-001
+Installation Date: 2019-08-22
+Current Status: OPERATIONAL
+
+Tank Condition Inspection:
+[✓] Structural integrity: PASS (no cracks, corrosion, or dents visible)
+[✓] Internal baffle plate: Present and intact (separates return and suction sides)
+[✓] Tank bottom: No accumulated sludge (inspected via drain plug opening)
+[✓] Tank paint/coating: Epoxy finish intact (no rust or peeling visible)
+[✓] Filler screen (40 micron): PASS (clean and unobstructed)
+[✓] Drain plug: Functional (tested opening/closing without leakage)
+[✓] Tank vent filter: PASS (clean, breathing audible during operation)
+
+Filtration System:
+[✓] Inlet filter (40 micron): Replaced 2024-01-11 (post-cavitation incident)
+[✓] Return line filter (10 micron): Replaced 2024-02-18 (during major maintenance)
+[✓] Fluid analysis (ISO 4406): 16/14/11 cleanliness level achieved (2024-01-15)
+[✓] Filter bypass valve pressure: 3.5 bar (normal bypass protection)
+[✓] Filter element life: Estimated 1,200 hours remaining on return filter
+
+Fluid Specifications & Analysis:
+[✓] Fluid type: ISO VG 32 (Mobil DTE 10 Excel 32)
+[✓] Viscosity at 40°C: 32.5 cSt (specification 28.8-35.2 cSt - PASS)
+[✓] Viscosity at 100°C: 5.6 cSt (specification >4.5 cSt - PASS)
+[✓] Pour point: -15°C (specification min -18°C - PASS)
+[✓] Flash point: 238°C (specification min 170°C - PASS)
+[✓] Water content (Karl Fischer): 185 ppm (acceptable <300 ppm, target <200 ppm)
+[✓] Acid number (TAN): 0.28 mg KOH/g (specification <0.5 - PASS)
+[✓] Particle count (ISO 4406): 16/14/11 (specification target 16/14/11 - PASS)
+
+Fluid Change History:
+  Last fluid change: 2024-02-18 (annual maintenance)
+  Next fluid change due: 2025-02-18 (or 2,000 operating hours, whichever comes first)
+  Current operating hours since fluid change: ~1,200 hours (estimated)
+
+COMPLIANCE STATUS: ✓ COMPLIANT (Tank, filters, and fluid all compliant)
+Action Items: None immediate - routine maintenance schedule being followed
+
+---
+
+MECHANICAL SEALS (Primary NBR + Secondary FKM)
+Primary Seal Type: Cartridge mechanical seal, NBR Type A
+Primary Seal P/N: Grundfos 96087211
+Secondary Seal Type: Cartridge mechanical seal, FKM Type B
+Secondary Seal P/N: Grundfos 96087414
+Last Seal Replacement: 2024-02-18 (part of annual overhaul)
+Expected Service Life: 24-36 months
+Current Age: ~11 months (fresh condition)
+Current Status: OPERATIONAL
+
+Seal Inspection Results (2024-01-20):
+[✓] Primary seal (NBR): No visible wear, no leakage detected
+[✓] Secondary seal (FKM): No discoloration, no degradation observed
+[✓] Seal cavity cleanliness: ISO 16/14/11 (verified during last maintenance)
+[✓] Seal spring cartridge: Proper tension, no corrosion visible
+[✓] Seal faces (carbon-ceramic): No pitting or scoring visible
+[✓] Drain line flow: <1 drop per minute (within acceptable leakage limit <0.5 mL/day)
+
+Seal Performance History:
+  Previous seal failure (2023-07-22): FKM secondary seal degradation due to overheating
+    Root cause: Elevated bulk oil temperature (68°C observed)
+    Resolution: New FKM seal installed, cooler upgrade initiated
+    Preventive action: Bulk oil temperature control enhanced per ACTION 2 in incident report
+  Post-replacement performance: Excellent (4 months stable operation)
+
+COMPLIANCE STATUS: ✓ COMPLIANT (Seals in excellent condition, recent replacement)
+Seal Replacement Scheduled: February 2026 (24 months from 2024-02-18)
+Note: Expedite replacement to January 2026 if bulk oil temperature consistently >60°C
+
+================================================================================
+SECTION 2: FACTORY ACT SECTION 27 COMPLIANCE ASSESSMENT
+================================================================================
+
+FACTORY ACT SECTION 27 - Guarding and Safety of Equipment
+
+Requirement 1: PROTECTIVE GUARDS ON MOVING PARTS
+Compliance Item: Pump coupling guard
+[✓] Guard installed: Yes (sturdy metal frame, 1.5 mm steel construction)
+[✓] Guard secures rotating shaft: Yes (complete enclosure, no access to coupling)
+[✓] Guard fastening: 4 bolts, all secure (hand-tested)
+[✓] Guard visibility: Guard does not obstruct normal operation or maintenance
+[✓] Guard integrity: No cracks, corrosion, or damage visible
+[✓] Inspection access: Guard removable for emergency maintenance (4 bolts, 1 minute removal)
+
+Requirement Met: ✓ COMPLIANT
+Recommendation: Annual inspection of guard fasteners during routine maintenance
+
+Requirement 2: ELECTRICAL SAFETY & LOCKOUT/TAGOUT
+Compliance Item: Motor disconnection and control
+[✓] Main electrical disconnector: Present and accessible (within 1 meter of pump)
+[✓] Disconnector type: Lockable main breaker (lever action, padlock hasp present)
+[✓] Emergency stop button: Present on control panel (red mushroom button, easily accessible)
+[✓] Isolation procedure: Documented in SOP-42A (STEP 3, Section on Emergency Shutdown)
+[✓] LOTO equipment: Safety padlocks available in maintenance room (Yellow locks, key control)
+[✓] LOTO training: All maintenance personnel trained (last update 2023-09-15)
+[✓] Posted warnings: "Rotating Equipment" and "Electrical Hazard" signs present
+
+Requirement Met: ✓ COMPLIANT
+Recommendation: Update LOTO training annually (due 2024-09-15)
+
+Requirement 3: PRESSURE VESSEL & HOSE SAFETY
+Compliance Item: Pressure system design and testing
+[✓] Pressure rating: Marked on equipment nameplate (25 bar / 362 PSI)
+[✓] Relief valve installed: ATOS DHRZ-A-030-210 set at 32 bar (adequate overpressure protection)
+[✓] Relief valve certification: Calibrated 2024-08-15 (valid until 2024-08-15)
+[✓] Pressure gauge: Calibrated gauge on system (mechanical Bourdon tube, 0-40 bar range)
+[✓] Hose rating: EN 286 4SP, rated 210 bar (safe for 25 bar operating pressure)
+[✓] Pressure test certificate: Hydrostatic test 2024-02-18, 25 bar x 10 min, PASSED
+[✓] Warning signs: High pressure warning labels on hose and pump discharge
+
+Requirement Met: ✓ COMPLIANT
+Action Required: Relief valve calibration expires 2024-08-15 - recalibrate by 2024-08-10
+
+Requirement 4: TRAINING & SUPERVISION
+Compliance Item: Operator and technician competency
+[✓] Operator training: Operators certified in pump operation (SOP-42A training, valid 12 months)
+[✓] Last training date: Operators trained 2023-10-15 (due for renewal by 2024-10-15)
+[✓] Maintenance technician qualifications: Senior technicians TECH-045, TECH-012, TECH-033 certified
+[✓] Troubleshooting procedures: SOP-42A documents all normal and emergency procedures
+[✓] Emergency response: Cavitation incident response (Jan 2024) demonstrated competent personnel
+[✓] Documentation: All training records filed and current
+
+Requirement Met: ✓ COMPLIANT
+Action Required: Operator recertification training due by 2024-10-15
+
+Requirement 5: MAINTENANCE & INSPECTION RECORDS
+Compliance Item: Documentation and preventive maintenance
+[✓] Maintenance log maintained: SOP-42A documentation system in place
+[✓] 5 maintenance events recorded (2023-2024): All documented with dates, technicians, costs
+[✓] Incident investigation: Jan 2024 cavitation event fully investigated and documented (INC-2024-001)
+[✓] Preventive actions: 6 actions implemented post-incident (strainer interval, temperature control, etc.)
+[✓] Spare parts inventory: Critical parts maintained (seal kit, bearings, strainer elements)
+[✓] Record retention: Documentation kept for minimum 3 years (Factory Act requirement)
+
+Requirement Met: ✓ COMPLIANT
+Recommendation: Continue quarterly review of maintenance trends (analyze failure patterns)
+
+================================================================================
+SECTION 3: ISO 4414 COMPLIANCE ASSESSMENT
+================================================================================
+
+ISO 4414 - HYDRAULIC FLUID POWER SYSTEMS - GENERAL RULES AND SAFETY
+
+SECTION 3.1: SYSTEM DESIGN COMPLIANCE
+
+Component 1: PRESSURE RELIEF VALVE
+ISO 4414 Requirement: Pressure relief valve must protect system against overpressure
+[✓] Relief valve installed: ATOS DHRZ-A-030-210 (certified pressure relief valve)
+[✓] Relief setpoint: 32 bar (25% above operating pressure of 25 bar - adequate margin)
+[✓] Cracking pressure tolerance: ±1.5 bar acceptable (verified within 0.8 bar at 32.5 bar)
+[✓] Calibration status: Current (2024-08-15, valid until 2024-08-15)
+[✓] Valve size: Adequate for pump flow (150 L/min relief capacity confirmed)
+
+Compliance Status: ✓ COMPLIANT (⚠ Calibration expires 2024-08-15)
+
+Component 2: SYSTEM FILTRATION
+ISO 4414 Requirement: Hydraulic fluid must be maintained at specified cleanliness level
+[✓] Inlet strainer: 40 micron element (Hydac RFBN/HC110, replaced 2024-01-11)
+[✓] Return filter: 10 micron element (installed 2024-02-18)
+[✓] Cleanliness level achieved: ISO 4406 16/14/11 (verified 2024-01-15 fluid analysis)
+[✓] ISO 4414 target: 16/14/11 cleanliness level (ACHIEVED)
+[✓] Filter bypass protection: 3.5 bar bypass valve (protects equipment if filter plugs)
+[✓] Filter change schedule: Per ISO 4414 recommendations, actual interval 1,000-1,500 hours
+
+Compliance Status: ✓ COMPLIANT
+
+Component 3: HOSE & PIPING DESIGN
+ISO 4414 Requirement: All pressure hose must be rated for system pressure with safety factor
+[✓] Inlet hose: EN 286 4SP, rated 210 bar (8.4:1 safety factor vs 25 bar operating)
+[✓] Outlet hose: EN 286 4SP, rated 210 bar (8.4:1 safety factor vs 25 bar operating)
+[✓] Return hose: EN 286 4SP, rated 210 bar (8.4:1 safety factor vs 25 bar operating)
+[✓] ISO 4414 requirement: Minimum 4:1 safety factor (EXCEEDED - 8.4:1 achieved)
+[✓] Hose age: 4 years 5 months (within 5-year service life per EN 285)
+[✓] Pressure test: Hydrostatic test 2024-02-18, 25 bar x 10 min, PASSED
+
+Compliance Status: ✓ COMPLIANT
+Note: Hose replacement recommended by 2024-08-22 (end of 5-year service life)
+
+Component 4: PUMP & MOTOR
+ISO 4414 Requirement: Pump must be rated for system pressure and flow with proper motor sizing
+[✓] Pump model: Grundfos SPM 150-11 (rated 25 bar, 150 L/min nominal)
+[✓] Motor power: 4.0 kW (motor sized for worst-case load + 15% margin)
+[✓] Motor certification: IEC 60034-1 compliant electric motor
+[✓] Pump bearing lubrication: Packed grease (Mobil SHC 629), proper for closed system
+[✓] Seal system: Pressure-balanced cartridge seals (NBR primary, FKM secondary)
+[✓] Mechanical seal design: Cartridge design allows operation to 25 bar without seal damage
+
+Compliance Status: ✓ COMPLIANT
+
+SECTION 3.2: OPERATIONAL COMPLIANCE
+
+Requirement 1: FLUID MAINTENANCE & CLEANLINESS
+[✓] Fluid type: ISO VG 32 (correctly matched to pump operating speed 1450 RPM)
+[✓] Fluid analysis: Conducted 2024-01-15 (ISO 4406 particle count, water content, TAN, viscosity)
+[✓] Cleanliness level: 16/14/11 (ISO 4414 target achieved)
+[✓] Water content: 185 ppm (acceptable <300 ppm, target <200 ppm)
+[✓] Oxidation stability (TAN): 0.28 mg KOH/g (acceptable <0.5, target <0.3)
+[✓] Fluid change interval: 2,000 hours or 1 year (ISO 4414 recommendation for industrial duty)
+
+Compliance Status: ✓ COMPLIANT
+
+Requirement 2: TEMPERATURE CONTROL
+[✓] Bulk oil cooler: 15 kW capacity (HYDAC FC3000 model)
+[✓] Cooler thermostat: Set point 50°C (operational target 50-55°C)
+[✓] Normal operating temperature: 50-55°C (within ISO 4414 design limit of 60°C)
+[✓] Maximum temperature alarm: 58°C (implemented post-Jan 2024 incident)
+[✓] Cooler fan operation: Automatic on-off based on temperature
+[✓] Post-incident cooler upgrade: 20 kW cooler on order (ACTION 2, due 2024-03-15)
+
+Compliance Status: ✓ COMPLIANT
+Note: Cooler upgrade will improve temperature margin (expected operating <52°C with new cooler)
+
+Requirement 3: PRESSURE MONITORING & RELIEF
+[✓] Pressure gauge: Analog Bourdon tube gauge, 0-40 bar range (visible on control panel)
+[✓] Gauge calibration: Last calibrated 2024-01-15 (valid 12 months per ISO 4414)
+[✓] Pressure relief valve: ATOS DHRZ-A-030-210, set 32 bar (4% overpressure margin)
+[✓] Relief valve certification: Calibrated 2024-08-15 (⚠ expires 2024-08-15)
+[✓] System overpressure protection: Adequate (32 bar relief protects all components rated 210 bar)
+
+Compliance Status: ✓ COMPLIANT (⚠ Relief calibration expires 2024-08-15)
+
+Requirement 4: SAFETY WARNINGS & LABELS
+[✓] Equipment pressure marking: "25 bar / 362 PSI" visible on pump nameplate
+[✓] High pressure warning: Labels on discharge hose and pressure gauge
+[✓] Rotating equipment warning: "Rotating Equipment" and "Entanglement Hazard" signs posted
+[✓] Emergency procedure posting: SOP-42A posted in pump room (laminated document)
+[✓] Electrical hazard marking: "Electrical Hazard" and "Do Not Start" warning signs
+
+Compliance Status: ✓ COMPLIANT
+
+SECTION 3.3: PREVENTIVE MAINTENANCE & INSPECTION
+
+Maintenance Task 1: SEAL INSPECTION & REPLACEMENT
+Interval per ISO 4414: 12-24 months (depends on duty)
+Last seal replacement: 2024-02-18 (primary NBR + secondary FKM cartridge seals)
+Current age: 11 months (fresh condition)
+Next scheduled replacement: February 2026 (24 months from replacement)
+[✓] COMPLIANT with ISO 4414 interval
+
+Maintenance Task 2: PUMP & BEARING INSPECTION
+Interval per ISO 4414: 12 months or 2,000 hours
+Last major inspection: 2024-02-18 (annual overhaul, disassembly and inspection)
+Next scheduled inspection: 2025-02-18 (12 months from last)
+Bearing condition: Excellent (no scoring, wear <0.05 mm measured at last overhaul)
+[✓] COMPLIANT with ISO 4414 interval
+
+Maintenance Task 3: STRAINER ELEMENT REPLACEMENT
+Interval per ISO 4414: Based on pressure drop (replace when ∆P >3.5 bar)
+New interval (post-incident): 1,000 operating hours (previously 1,500 hours)
+Last replacement: 2024-01-11 (post-cavitation incident response)
+Reason: Steel plant thermal environment accelerates oil degradation, reducing element life
+[✓] COMPLIANT with enhanced interval appropriate for operating environment
+
+Maintenance Task 4: FLUID ANALYSIS & CHANGE
+Interval per ISO 4414: Annual or 2,000 operating hours
+Last fluid change: 2024-02-18
+Last fluid analysis: 2024-01-15 (ISO 4406 particle count, TAN, water content, viscosity)
+Next fluid change: 2025-02-18 or after 2,000 operating hours (whichever comes first)
+[✓] COMPLIANT with ISO 4414 interval
+
+SECTION 3.4: DOCUMENTATION & RECORD KEEPING
+
+[✓] Maintenance log: Comprehensive documentation system (SOP-42A logbook)
+[✓] Equipment specification: Available (equipment_spec_pump_xyz.txt)
+[✓] Incident reports: Documented (incident_report_2024_jan.txt for cavitation event)
+[✓] Calibration certificates: Relief valve (valid until 2024-08-15), pressure gauge (valid until 2024-01-15)
+[✓] Pressure test reports: Hydrostatic test 2024-02-18, 25 bar x 10 min, PASSED
+[✓] Training records: Operator and technician training documentation filed
+[✓] Spare parts list: Critical parts inventory maintained
+
+Compliance Status: ✓ COMPLIANT
+
+================================================================================
+SECTION 4: IDENTIFIED COMPLIANCE GAPS & CORRECTIVE ACTIONS
+================================================================================
+
+GAP 1: Relief Valve Calibration Expiration
+Severity: MEDIUM (Non-compliant after expiration date)
+Description: Relief valve calibration expires 2024-08-15
+Current Date: 2024-01-20 (7 months remaining)
+Impact: After 2024-08-15, relief valve certification invalid (cannot verify setpoint accuracy)
+Corrective Action:
+  - Action item: Schedule relief valve recalibration by 2024-08-10
+  - Responsible party: Maintenance supervisor
+  - Vendor: TÜV Süd (performed last calibration)
+  - Estimated cost: INR 3,500
+  - Estimated lead time: 4 working days
+  - Deadline: BOOK BY 2024-08-10 to complete before expiration
+
+Priority: HIGH (Must complete by 2024-08-15 to maintain compliance)
+
+---
+
+GAP 2: Pressure Gauge Calibration Expiration
+Severity: LOW (Non-critical, backup gauge available)
+Description: Pressure gauge last calibrated 2024-01-15 (valid 12 months)
+Current Date: 2024-01-20 (12 months remaining)
+Impact: After 2024-01-15, gauge calibration expires (cannot verify pressure readings)
+Corrective Action:
+  - Action item: Schedule gauge calibration by 2024-01-10 (before expiration)
+  - Responsible party: Maintenance supervisor
+  - Vendor: Caltech Instruments (Bangalore, 2-day turnaround)
+  - Estimated cost: INR 1,200
+  - Deadline: BOOK BY 2024-12-20 to complete before 2025-01-15
+
+Priority: MEDIUM (Must complete by 2025-01-15)
+
+---
+
+GAP 3: Operator Recertification Training Due
+Severity: MEDIUM (Training validity expires)
+Description: Operator certification training last completed 2023-10-15 (valid 12 months)
+Current Date: 2024-01-20 (9 months remaining)
+Impact: After 2024-10-15, operators not certified to run equipment independently
+Corrective Action:
+  - Action item: Schedule operator refresher training (4-hour module) by 2024-10-01
+  - Responsible party: Senior technician Amit Sharma (TECH-012)
+  - Training duration: 4 hours + practical demonstration
+  - Number of operators: 4 shift supervisors + 8 operators (12 total)
+  - Estimated cost: INR 2,400 (materials and instructor time)
+  - Deadline: SCHEDULE BY 2024-09-01
+
+Priority: MEDIUM (Must complete by 2024-10-15)
+
+---
+
+GAP 4: Hose Replacement Due (5-Year Service Life)
+Severity: LOW (Preventive maintenance, not emergency)
+Description: Hydraulic hose installed 2019-08-22 (age 4 years 5 months as of 2024-01-20)
+Expected service life: 5 years maximum per EN 285 standard
+Due date: 2024-08-22 (6 months remaining)
+Impact: Continued operation beyond 5 years increases failure risk (catastrophic hose rupture possible)
+Corrective Action:
+  - Action item: Schedule hose replacement by 2024-08-15 (before due date)
+  - Scope: Replace inlet (3.5m), outlet (2.8m), and return (5.0m) hose assemblies
+  - Responsible party: Senior technician Vikram Patel (TECH-028)
+  - Estimated downtime: 4 hours
+  - Estimated cost: INR 12,000 (hoses, couplers, labor, pressure testing)
+  - Recommended timing: Next planned shutdown (Q3 2024)
+  - System pressure test after replacement: Verify at 25 bar x 10 min
+
+Priority: MEDIUM (Should complete by 2024-08-22, plan for next maintenance window)
+
+---
+
+GAP 5: Cooler Upgrade In Progress (Post-Incident Action 2)
+Severity: LOW (Improvement action, not immediate compliance gap)
+Description: Bulk oil temperature occasionally reaches 60°C during operation (design limit)
+New 20 kW cooler ordered (replacing 15 kW cooler) to improve temperature margin
+Installation scheduled: 2024-03-15 (per incident report ACTION 2)
+Expected outcome: Operating temperature will reduce to <52°C, improving seal life and reliability
+Estimated cost: INR 35,000 (cooler) + INR 8,000 (thermostat valve + installation)
+
+Priority: MEDIUM (Implementation ongoing, due 2024-03-15)
+
+================================================================================
+SECTION 5: SUMMARY & COMPLIANCE RATING
+================================================================================
+
+OVERALL COMPLIANCE ASSESSMENT
+
+Factory Act Section 27 (India): ✓ COMPLIANT
+  - All guarding requirements met
+  - Lockout/tagout procedures documented
+  - Operator training current
+  - Emergency procedures established
+  - Maintenance records maintained
+
+ISO 4414 (International Standard): ✓ COMPLIANT
+  - System design meets pressure and cleanliness standards
+  - Relief valve installed and certified
+  - Filtration system adequate (ISO 16/14/11 achieved)
+  - Operational parameters within safe limits
+  - Preventive maintenance schedule established
+
+PED Compliance (EU Directive 2014/68/EU): ✓ COMPLIANT
+  - CE marking visible on equipment
+  - Pressure vessel test certificate current (TÜV 2024-02-18)
+  - Overpressure protection adequate
+  - Design documentation on file
+
+OVERALL RATING: ✓ COMPLIANT with 5 minor action items
+
+Equipment Status: OPERATIONAL - Safe for continued use
+Next Full Compliance Review: 2024-04-20 (quarterly check-in, 3 months)
+Annual Compliance Recertification: 2025-01-20 (one year from this inspection)
+
+================================================================================
+COMPLIANCE ACTION SUMMARY TABLE
+================================================================================
+
+Action Item                              Due Date      Priority  Status    Owner
+─────────────────────────────────────────────────────────────────────────────────
+Relief valve recalibration              2024-08-10    HIGH      OPEN      Maintenance
+Pressure gauge calibration              2025-01-10    MEDIUM    OPEN      Maintenance
+Operator refresher training (12 staff)  2024-10-15    MEDIUM    OPEN      TECH-012
+Hydraulic hose replacement (5-yr life)  2024-08-22    MEDIUM    OPEN      TECH-028
+Cooler upgrade installation             2024-03-15    MEDIUM    IN PROG   Engineering
+Post-incident monitoring (14 days)      2024-01-25    MEDIUM    COMPLETE  All staff
+
+================================================================================
+SIGN-OFF & APPROVAL
+================================================================================
+
+Inspection Conducted By: Rajesh Kumar, Senior Inspector (TECH-045)
+Verification Witness: Sandeep Deshmukh, Plant Engineering Manager
+Approval Authority: Sandeep Deshmukh, Plant Engineering Manager
+Report Date: 2024-01-20
+Inspection Duration: 3 days, 12 hours total
+Next Review Due: 2024-04-20 (Quarterly progress check)
+Annual Recertification: 2025-01-20 (12 months from this report)
+
+Approved by: _________________________ Date: 2024-01-20
+           Sandeep Deshmukh
+           Plant Engineering Manager
+
+Distribution:
+  - Operations team (reference for operational procedures)
+  - Maintenance team (reference for maintenance schedules)
+  - Safety committee (compliance verification)
+  - Plant manager (compliance status reporting)
+  - Regulatory filing (if required by local authority)
+
+================================================================================

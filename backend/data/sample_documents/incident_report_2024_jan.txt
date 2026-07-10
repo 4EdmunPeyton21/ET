@@ -1,0 +1,187 @@
+================================================================================
+INCIDENT INVESTIGATION REPORT
+PUMP-XYZ Cavitation Event - January 2024
+Report ID: INC-2024-001-PUMP-XYZ
+Classification: HIGH PRIORITY - Equipment Damage Risk
+Date of Report: 2024-01-16
+================================================================================
+
+INCIDENT OVERVIEW
+Incident Type: Cavitation event detected during normal operation
+Equipment Affected: PUMP-XYZ (Grundfos SPM 150-11)
+Location: Steel Plant, Unit A - Coolant Circulation System
+Date of Incident: 2024-01-11 (10:32 AM IST)
+Time Duration: ~45 minutes (detected to resolution)
+Severity: MODERATE (Non-critical, equipment protected, no personnel injury)
+Downtime: 1 hour (incident detection + corrective action + verification)
+
+INCIDENT DETECTION
+Symptom Description: Operators reported audible cavitation noise from PUMP-XYZ pump body
+Noise Characteristics: "Grinding/crackling sound" starting at 10:32 AM
+Operator: Harish Prabhu (Shift Supervisor)
+Initial Response Time: 4 minutes (alarm escalation procedure followed)
+Supporting Evidence: Pressure monitoring data shows inlet pressure oscillation 0.2-0.8 bar (abnormal)
+
+PRESSURE ANALYSIS DATA
+Normal Operating Baseline (Pre-incident):
+  - Discharge pressure: 19.2 bar (constant)
+  - Inlet pressure: 2.1-2.3 bar (suction gauge)
+  - Pressure differential: 16.9-17.1 bar
+  - Operating conditions: Stable, zero fluctuation
+
+Abnormal Readings During Incident (10:32 AM - 11:17 AM):
+  - Discharge pressure: 8.2-18.9 bar (extreme fluctuation, cycling 5-6 times/minute)
+  - Inlet pressure: 0.2-0.8 bar (severe suction side instability)
+  - Pressure differential: Unstable, indicating vapor bubble formation
+  - System temperature: Rose from 54°C to 62°C in 10 minutes
+  - Flow rate: Dropped to 85 L/min (from nominal 150 L/min)
+
+Root Cause Analysis
+Primary Root Cause: Inlet Strainer Blockage (Confirmed)
+Evidence:
+  1. Post-incident disassembly revealed 40-micron strainer cartridge 80% occluded
+  2. Particulate analysis: Fine rust/oxidation debris, iron oxide particles (0.5-40 micron range)
+  3. Strainer pressure drop across element: Estimated >2.0 bar (calculated from inlet pressure drop)
+  4. Visual inspection confirmed debris accumulation pattern (not isolated spots)
+
+Root Cause Timeline:
+  - Last strainer replacement: 2023-10-11 (during cavitation response, EVENT 3)
+  - Operational hours since last replacement: 1,247 hours
+  - Expected life of cartridge: 1,500 hours minimum (per OEM Grundfos specifications)
+  - Actual service life observed: 83% of expected life at blockage point
+  - Probable origin: Rust from exposed carbon steel surfaces in hot return line (100°C bulk oil temp)
+
+Contributing Factor: Elevated bulk oil temperature (58-62°C observed)
+  - Accelerates oxidation rate of hydraulic fluid, increasing particulate generation
+  - Thermal degradation of oil seals increases shedding
+  - Temperature control system under review (see Preventive Actions)
+
+Secondary Contributing Factor: Maintenance interval not adjusted for hot environment
+  - Steel plant ambient: 45-50°C (high sensible heat)
+  - Coolant return temperature: 55-60°C (design spec 40-55°C)
+  - No preventive shortening of strainer change interval implemented
+
+CAVITATION MECHANISM EXPLAINED
+Cavitation Onset Condition Met:
+  - Inlet absolute pressure dropped below fluid vapor pressure (0.3-0.4 bar @ 58°C)
+  - Vapor bubbles formed within pump impeller suction region
+  - Bubble collapse induced pressure spikes and erosive shock waves
+  
+Physical Damage Assessment:
+  - Impeller inlet vane edges: Micro-pitting visible (erosion depth: <0.1 mm - minor)
+  - Pump housing interior: No significant erosion (protected by ductile iron hardness)
+  - Shaft deflection: Measurable runout increase to 0.08 mm (within tolerance, but elevated)
+  - Mechanical seals (NBR + FKM): NO DAMAGE (pressure-balanced design protected seals)
+  - Bearing clearance: Unchanged, inspected post-incident (SKF 6205-2RS - good condition)
+
+Risk Assessment of Continuing Cavitation:
+  - Had incident persisted >2 hours: Impeller fatigue failure probable
+  - Mechanical seal damage risk: Low due to balanced cavity design
+  - Shaft damage risk: Moderate (11% increase in runout over 45 minutes suggests rapid erosion)
+  - Overall equipment risk: MODERATE if left unattended
+
+RESOLUTION & CORRECTIVE ACTION
+Immediate Actions Taken (10:32 AM - 11:30 AM):
+  1. 10:40 AM - Pump shutdown initiated by operator (normal shut-down sequence followed)
+  2. 10:50 AM - Technician Vikram Patel (ID: TECH-028) arrived on-site
+  3. 11:05 AM - Inlet strainer cartridge removed and visual inspection performed
+  4. 11:10 AM - Cartridge element cleaned (compressed air at 4 bar, 5 minute duration)
+  5. 11:15 AM - Cleaned cartridge reinstalled, system flushed at low pressure (5 bar, 15 minutes)
+  6. 11:20 AM - Pump restart with gradual pressure ramp (0-5 bar over 2 minutes)
+  7. 11:30 AM - Full operational pressure achieved (19.5 bar), cavitation ceased immediately
+  8. 11:35 AM - Post-start verification: Inlet pressure 2.2 bar, discharge stable, noise normal
+
+Cartridge Cleaning Procedure:
+  - Method: Reverse flow flushing with 40-micron bypass strainer
+  - Flushing duration: 30 liters of ISO VG 32 hydraulic oil circulated
+  - Post-cleaning pressure drop across element: 0.15 bar (normal, <0.5 bar specification)
+  - Particulate captured in bypass strainer analyzed: Iron oxide dominant (rust oxidation)
+
+System Verification Post-Resolution (11:35 AM - 1:00 PM):
+  - Pressure stability test: 5 hours continuous operation at 20 bar - PASS
+  - Vibration monitoring: 5.8 mm/s (excellent, no abnormal resonance)
+  - Temperature monitoring: Peak 56°C (return to normal operating range)
+  - Seal inspection: No leakage observed, both NBR and FKM seals intact
+  - Flow rate: 148 L/min (98.7% of nominal - minor reduction acceptable)
+  - Noise level: 76 dB(A) (normal, cavitation noise completely eliminated)
+
+PREVENTIVE ACTIONS & RECOMMENDATIONS
+Action 1: Strainer Cartridge Replacement Schedule Acceleration
+  - Previous interval: 1,500 operating hours (per OEM baseline)
+  - New interval: 1,000 operating hours (33% reduction)
+  - Rationale: Steel plant thermal environment accelerates oil degradation
+  - Responsible party: Maintenance supervisor
+  - Target completion: Implement by 2024-02-01
+  - Cost impact: +INR 800 per cycle (additional cartridge per year, estimated)
+
+Action 2: Bulk Oil Temperature Control Enhancement
+  - Install thermostatic valve on return line (set point: 50°C)
+  - Upgrade cooler capacity from 15 kW to 20 kW (HYDAC FC3100 recommended)
+  - Add temperature alarm at 58°C (manual operator alert)
+  - Target completion: 2024-03-15
+  - Cost estimate: INR 35,000 (cooler upgrade) + INR 8,000 (thermostat valve + installation)
+
+Action 3: Maintenance Procedure Documentation Update
+  - Create work instruction: "Hot Environment Strainer Maintenance"
+  - Include trigger: Automatic strainer change when inlet pressure rises >0.5 bar above baseline
+  - Add alarm limits: Suction pressure <1.2 bar triggers mandatory inspection
+  - Documentation owner: Plant engineering manager
+  - Target completion: 2024-02-15
+
+Action 4: Operator Training Enhancement
+  - Topic: Recognition of cavitation symptoms (audible, pressure fluctuation, temperature rise)
+  - Duration: 30-minute module
+  - Training completion target: All shift supervisors by 2024-02-28
+  - Trainer: Senior technician Amit Sharma (ID: TECH-012)
+  - Assessment: Each operator must demonstrate correct shutdown and escalation procedure
+
+Action 5: Equipment Monitoring System Upgrade
+  - Install continuous inlet pressure transmitter (0-10 bar range) with 4-20 mA output
+  - Connect to Plant DCS (Distributed Control System) for real-time monitoring
+  - Set alarm threshold: Inlet pressure <1.0 bar (early cavitation warning)
+  - Target completion: 2024-03-30
+  - Cost estimate: INR 18,000 (transducer, cable, DCS integration)
+
+Action 6: Post-Incident Monitoring Schedule
+  - Daily pressure checks: 2024-01-11 to 2024-01-25 (14 days post-incident)
+  - Weekly checks: 2024-01-26 to 2024-02-29 (1 month ongoing)
+  - Monthly checks: From 2024-03-01 onward (return to normal schedule)
+  - Data logging: Record inlet pressure, discharge pressure, temperature, and flow each check
+
+LESSONS LEARNED
+1. Thermal environment significantly impacts equipment maintenance intervals (50% reduction applied)
+2. Cavitation can develop rapidly (45 minutes from detection to critical condition) but is reversible if caught early
+3. Operator training and symptom recognition critical to equipment protection
+4. Mechanical seal design (pressure-balanced) proved effective in protecting seals during cavitation event
+5. Preventive strainer maintenance has direct ROI in equipment protection (cost prevention >INR 50,000 for impeller replacement)
+
+INCIDENT STATISTICS
+Incident Duration: 45 minutes
+Resolution Time: 25 minutes
+Equipment Downtime: 1 hour (including verification)
+Total Investigation Time: 4 hours (including disassembly inspection)
+Cost of Incident Response: INR 3,200
+Estimated Cost if Incident Continued 2+ Hours: INR 45,000+ (impeller damage + extended downtime)
+ROI of Immediate Response: 14:1 cost avoidance ratio
+
+REGULATORY COMPLIANCE STATUS
+Factory Act Section 27 (Guarding and Safety): COMPLIANT
+- Equipment has proper guards and pressure relief
+- Incident did not create hazardous condition
+- Operator response procedure followed correctly
+ISO 4414 (Hydraulic Safety): COMPLIANT
+- System performed as designed (relief valve set at 32 bar, max pressure reached 18.9 bar)
+- Inlet blockage is maintenance issue, not system design failure
+- Preventive actions align with ISO 4414 maintenance guidelines
+No regulatory notification required (incident below reportable threshold for Factory Act)
+
+APPROVAL & SIGN-OFF
+Investigation Lead: Deepak Singh, Senior Technician (ID: TECH-033)
+Verification: Rajesh Kumar, Senior Technician (ID: TECH-045)
+Approval: Sandeep Deshmukh, Plant Engineering Manager
+Report Issued: 2024-01-16
+Approved Date: 2024-01-16
+Distribution: Operations, Maintenance, Safety Committee, Plant Manager
+
+Next Review Date: 2024-02-15 (30 days post-incident progress review)
+================================================================================

@@ -1,0 +1,430 @@
+================================================================================
+STANDARD OPERATING PROCEDURE (SOP-42A)
+PUMP STARTUP SEQUENCE - PUMP-XYZ (Grundfos SPM 150-11)
+Revision: 2.1 | Effective Date: 2024-02-01 | Next Review: 2025-02-01
+Classification: CRITICAL - Equipment Operation
+================================================================================
+
+DOCUMENT CONTROL
+Document ID: SOP-42A-PUMP-XYZ-STARTUP
+Equipment: PUMP-XYZ (Grundfos SPM 150-11 / 4.0 kW-90)
+Location: Steel Plant Unit A - Coolant Circulation System
+Authorized by: Sandeep Deshmukh, Plant Engineering Manager
+Date Issued: 2024-02-01
+Previous Version: SOP-42A Rev 2.0 (2023-06-15)
+Changes in Rev 2.1: Added early cavitation detection steps (post-Jan 2024 incident); inlet pressure alarm limits updated
+
+SCOPE & APPLICATION
+This procedure applies to all personnel authorized to operate PUMP-XYZ, including:
+  - Shift supervisors and operators
+  - Maintenance technicians performing system commissioning
+  - Engineering personnel conducting tests or startups after maintenance
+
+Pre-requisites for Authorization:
+  - Completion of 4-hour pump operation training module (certification valid 12 months)
+  - Hands-on shadowing with authorized operator (minimum 2 startups observed)
+  - Written test: 80% passing score on pump systems and safety (valid 6 months)
+
+SAFETY WARNINGS & HAZARDS
+** CRITICAL HAZARD: ROTATING EQUIPMENT - ENTANGLEMENT RISK **
+  - KEEP ALL BODY PARTS, LOOSE CLOTHING, AND TOOLS AWAY FROM PUMP COUPLING
+  - Minimum 1-meter clearance from rotating shaft during operation
+  - Do NOT remove coupling guard during operation
+  - Do NOT attempt to stop pump by hand or objects (use stop command only)
+
+** HYDRAULIC PRESSURE HAZARD: 25 BAR (362 PSI) SYSTEM **
+  - Pressurized fluid can cause severe injection injuries (penetrating wounds)
+  - Never point discharge hose at body or other personnel
+  - Always wear high-pressure-resistant gloves (Kevlar-lined) when handling hoses
+  - Pressure relief valve set to 32 bar (maximum safe limit) - do NOT tamper
+
+** THERMAL HAZARD: HOT FLUID (55-65°C OPERATING) **
+  - Hydraulic fluid can reach 65°C during operation (steam generation risk)
+  - Avoid contact with discharge hose and return lines
+  - Wear safety glasses to protect from possible fluid spray
+  - Allow 30 minutes cool-down time before maintenance work
+
+** ELECTRICAL HAZARD: 3-PHASE, 50 Hz, 6.5 A MOTOR **
+  - Pump motor is connected to main electrical supply (220V, 3-phase)
+  - LOCKOUT/TAGOUT required before maintenance work
+  - Do NOT operate pump with wet hands or in rain/wet environment
+  - Motor circuit breaker must be accessible (clear of obstruction)
+
+** NOISE HAZARD: 76 dB(A) SOUND LEVEL **
+  - Prolonged exposure without hearing protection can cause hearing loss
+  - Wear foam ear plugs or over-ear earmuffs if operating >30 minutes continuously
+  - Report abnormal noise (grinding, cavitation) to supervisor immediately
+
+** CAVITATION RISK: INLET BLOCKAGE OR LOW SUCTION PRESSURE **
+  - Cavitation can develop within 30-60 minutes of low inlet pressure (<1.0 bar)
+  - Audible symptom: "Grinding" or "crackling" sound from pump body
+  - DO NOT ignore cavitation noise - immediate shutdown required
+  - Post-incident from January 2024: Enhanced monitoring procedures implemented
+
+EMERGENCY STOP PROCEDURE (Do this immediately if any hazard observed):
+  1. Press RED emergency stop button on control panel (large red mushroom button)
+  2. Do NOT attempt manual shutdown using hand wheel
+  3. Wait 3 minutes for pump to coast to complete stop
+  4. If pump continues running after red button press: 
+     - Close main electrical breaker (second lever on panel)
+     - Activate system shutdown relay: Press STOP and hold for 5 seconds
+  5. Call maintenance supervisor (Ext. 4521) for fault diagnosis
+  6. Do NOT restart without supervisor authorization
+
+================================================================================
+STARTUP SEQUENCE - STEP BY STEP INSTRUCTIONS
+================================================================================
+
+PRE-STARTUP CHECKLIST (Perform 15 minutes before startup)
+Equipment Location: Unit A Pump Room
+Time Allocated: 15 minutes
+Personnel: Authorized operator (minimum 1 person)
+
+□ STEP 1: VISUAL INSPECTION - External Equipment
+  Time: 2 minutes
+  Actions:
+    1. Check pump body for visible leaks (inspect all seal drain ports)
+       Expected: Dry condition. Acceptable: <1 drop per hour from drain line
+       Action if failed: Stop. Report to maintenance supervisor.
+    2. Verify coupling guard is firmly in place and undamaged
+       Inspection point: 4 bolts holding guard (hand-check tightness)
+    3. Check inlet/outlet hose connections for tight couplings
+       Test: Hand-pull each hose gently (should not move >2 mm)
+    4. Verify pump foundation bolts tight (visual inspection of bolt heads)
+       Method: Visually inspect all 4 foundation bolts for tightness
+    5. Check for loose tools or objects within 1-meter radius of pump
+       Action: Remove any tools or debris before proceeding
+
+□ STEP 2: RESERVOIR FLUID LEVEL CHECK
+  Time: 3 minutes
+  Location: Hydraulic fluid reservoir (250-liter tank, northeast corner of Unit A)
+  Actions:
+    1. Locate transparent fluid level gauge on side of reservoir
+    2. Check fluid level: Should be between MIN and MAX marks on gauge
+       Normal range: Between 100 and 200 liters (shown on gauge scale)
+       RED ZONE: Below 80 liters (suction starvation risk)
+    3. If level is LOW (below MIN mark):
+       - Stop startup - suction pressure will be insufficient
+       - Add ISO VG 32 hydraulic fluid to MAX mark
+       - Use proper filtering (40-micron funnel) during refill
+       - Estimated fill time: 5 minutes per 10 liters
+    4. Verify fluid condition visually: Fluid should be clear to light amber
+       Black or dark brown color indicates oxidation - STOP and notify maintenance
+    5. Check reservoir vent filter is NOT clogged
+       Method: Visual inspection of vent screen on top of tank
+       If clogged: Replace vent filter (takes 1 minute)
+
+□ STEP 3: CONTROL PANEL INSPECTION
+  Time: 2 minutes
+  Location: Pump control panel (mounted on Unit A wall, left side)
+  Actions:
+    1. Verify main electrical breaker is in OFF position (lever down)
+    2. Check emergency stop (red button) is in RESET position (button out)
+       If red button is IN (depressed): Press and twist counterclockwise to RESET
+    3. Verify all warning lights are OFF (no red/amber lights illuminated)
+    4. Check that mode selector switch is in STOP position (lever left)
+    5. Confirm that pressure gauge needle is at zero (0 bar)
+
+□ STEP 4: SYSTEM STARTUP CHECKLIST
+  Time: 1 minute
+  Actions:
+    1. Ensure all personnel are at least 2 meters away from pump
+    2. Confirm pump room door is closed and posted with "EQUIPMENT RUNNING" sign
+    3. Verify that discharge isolation ball valve is OPEN
+       Location: Discharge line, 0.5 meters from pump outlet
+       Action: Turn handle parallel to pipe (OPEN position)
+    4. Verify that inlet isolation ball valve is OPEN
+       Location: Inlet line, 1.0 meters from pump inlet
+       Action: Turn handle parallel to pipe (OPEN position)
+    5. Check that pump oil cooler thermostat is functioning
+       Observation: Cooler fan should start automatically when fluid >54°C
+    6. Final confirmation: All personnel clear from pump area? YES / NO
+
+STARTUP SEQUENCE - PRESSURE RAMP (DO NOT SKIP STEPS)
+
+□ STEP 5: PUMP MOTOR ENERGIZATION
+  Time: 1 minute
+  Instructions:
+    1. Stand in front of control panel, facing emergency stop button
+    2. Turn main electrical breaker to ON (lever up)
+       Signal: Green light on panel illuminates (power available)
+    3. Wait 3 seconds (allowing motor capacitors to charge)
+    4. Press green START button (large green button on control panel)
+    5. Listen for motor hum (3-phase motor start sound)
+       Duration: 2-3 seconds (ramp-up phase)
+       Expected: Pump begins rotating with audible mechanical sound
+    6. Confirm motor reaches full 1450 RPM speed (no unusual noise)
+       Timing: Should reach full speed within 5 seconds of start button press
+
+□ STEP 6: PRESSURE BUILDUP PHASE (GRADUAL - No sudden jumps)
+  Time: 2 minutes
+  
+  ** IMPORTANT: Do NOT open load valves rapidly **
+  ** Pressure MUST rise gradually (0-5 bar within 1 minute) **
+  
+  Instructions:
+    1. Monitor discharge pressure gauge continuously
+    2. Using load control valve on panel, open discharge SLOWLY
+       Action: Turn load valve knob counterclockwise by 1/4 turn increments
+       Timing: Wait 10 seconds between each 1/4 turn
+    3. Observe pressure gauge rise in stages:
+       Expected timeline:
+       - 0-10 seconds: 0-2 bar (pump finding load)
+       - 10-30 seconds: 2-5 bar (gradual buildup)
+       - 30-60 seconds: 5-15 bar (normal operating pressure approaching)
+       - 60-90 seconds: 15-20 bar (final pressure stabilization)
+    
+    4. CAVITATION DETECTION during pressure buildup:
+       Listen for abnormal sounds:
+       - NORMAL: Quiet hydraulic whine (smooth, consistent tone)
+       - CAVITATION: Grinding or crackling noise (STOP immediately if heard)
+       - ACTION if cavitation detected:
+         a) Press STOP button to shutdown pump
+         b) Wait 2 minutes for pressure to drop to zero
+         c) Check inlet pressure gauge: Should show 2.0-2.5 bar (suction available)
+         d) If inlet pressure <1.0 bar: INLET BLOCKAGE SUSPECTED
+            - Notify maintenance supervisor - do NOT restart
+         e) If inlet pressure normal: Restart procedure at STEP 5
+
+    5. Pressure gauge reading at 2 minutes:
+       Expected: 18-20 bar (normal operating pressure)
+       Acceptable range: 15-25 bar
+       If above 25 bar: Reduce load valve opening slightly
+       If below 15 bar: Check that load valve opened fully
+
+□ STEP 7: SYSTEM STABILIZATION CHECK
+  Time: 3 minutes
+  
+  Instructions:
+    1. Monitor all parameters for 3 minutes at operating pressure (18-20 bar):
+       Parameters to observe:
+       
+       A) Discharge Pressure Gauge:
+          Expected: Steady reading (±0.5 bar fluctuation acceptable)
+          Alarm condition: Pressure oscillating >2 bar (indicates blockage or cavitation)
+          Action: STOP if pressure unstable
+       
+       B) Inlet Pressure Gauge (NEW - added post-Jan 2024):
+          Expected: 2.0-2.5 bar (suction available)
+          Alarm condition: Inlet pressure <1.0 bar (STOP immediately)
+          Alarm condition: Inlet pressure dropping (indicates strainer blockage developing)
+          Action: Monitor trend - if dropping, stop and check strainer
+       
+       C) Flow Rate Display (if equipped):
+          Expected: 145-150 L/min (nominal rated flow)
+          Acceptable range: 130-155 L/min
+          Alarm condition: <130 L/min (indicates system blockage)
+       
+       D) Temperature Gauge:
+          Expected: Temperature rising gradually from ambient to 50-55°C (takes 10-15 min)
+          Alarm condition: Temperature rising rapidly (>1°C per minute)
+          Alarm condition: Temperature exceeding 60°C during startup
+          Action: Check cooler operation - cooler fan should be running by now
+       
+       E) Acoustic Check:
+          Expected: Steady hydraulic whine, no grinding or crackling
+          Unacceptable: Any unusual noise (stop and diagnose)
+       
+       F) Vibration Check:
+          Expected: Minimal vibration (hold hand on pump body - slight tremor only)
+          Alarm condition: Severe vibration (>7 mm/s) - indicates bearing issue
+          Action: STOP if excessive vibration detected
+
+    2. RECORD STARTUP DATA:
+       In startup logbook, record at 3-minute mark:
+       - Start time: __ : __ (HH:MM)
+       - Operator name: _________________
+       - Discharge pressure: _____ bar
+       - Inlet pressure: _____ bar
+       - Flow rate: _____ L/min
+       - Temperature: _____ °C
+       - Cooler fan: ON / OFF (check visually)
+       - Abnormal observations: _________________________
+
+OPERATIONAL MONITORING PHASE
+
+□ STEP 8: CONTINUOUS MONITORING (First 30 minutes of operation)
+  Time: 30 minutes
+  Frequency: Check parameters every 5 minutes
+  
+  Actions:
+    1. Every 5 minutes, verify:
+       - Discharge pressure gauge (steady, not fluctuating)
+       - Inlet pressure gauge (should remain 2.0-2.5 bar)
+       - Temperature rise (normal: +0.5°C per minute, reaching 50-55°C by 15-min mark)
+       - Noise level (consistent, no grinding)
+       - No visible leaks developing
+    
+    2. Temperature ramp during first 30 minutes:
+       Minute 5: ~40°C (warm-up starting)
+       Minute 10: ~45°C (approaching normal range)
+       Minute 15: ~50°C (normal range reached)
+       Minute 20-30: ~50-55°C (stabilized at normal operating temperature)
+       
+       If temperature exceeds 58°C by minute 20:
+         - Increase cooler fan speed (if variable speed cooler installed)
+         - Check that discharge cooler outlet has good flow (no blockage)
+         - Reduce pump load slightly (1/4 turn on load valve counterclockwise)
+    
+    3. Pressure stability check:
+       Discharge pressure should remain within ±1 bar of operating setpoint
+       If pressure fluctuates >2 bar: Check inlet pressure immediately
+       - Inlet pressure dropping? = Strainer blockage suspected → STOP
+       - Inlet pressure stable, discharge fluctuating? = Load side blockage → Investigate
+    
+    4. Seal leakage observation:
+       Check pump body drain line (small rubber hose on pump side)
+       Expected: Occasional drops, <5 drops per minute
+       Alarm: Continuous stream of fluid = Seal failure → STOP and notify maintenance
+
+□ STEP 9: FULL OPERATIONAL STATUS (After 30 minutes)
+  Time: 1 minute
+  Actions:
+    1. Verify all parameters are within normal operating range:
+       ✓ Discharge pressure: 18-20 bar (stable)
+       ✓ Inlet pressure: 2.0-2.5 bar (stable)
+       ✓ Temperature: 50-55°C (stabilized)
+       ✓ Flow rate: 145-150 L/min
+       ✓ Noise: Consistent, no abnormal sounds
+       ✓ Vibration: Normal, <6 mm/s
+       ✓ No visible leaks
+    
+    2. System is now FULLY OPERATIONAL and ready for normal production use
+
+================================================================================
+SHUTDOWN SEQUENCE - NORMAL OPERATION
+================================================================================
+
+SHUTDOWN PROCEDURE (at end of shift or scheduled maintenance)
+Time Allocated: 5 minutes
+Equipment: All shutdown controls must be manually operated
+
+□ STEP A: PRESSURE REDUCTION (Controlled discharge)
+  Time: 1 minute
+  
+  Instructions:
+    1. Turn load control valve clockwise (reducing outlet opening)
+       Action: 1/4 turn every 5 seconds until valve is fully closed
+       Timing: Takes approximately 20-30 seconds to fully close
+    2. Monitor discharge pressure gauge:
+       Expected: Pressure drops gradually to zero over 30 seconds
+       DO NOT: Close discharge ball valve (let load control reduce pressure naturally)
+
+□ STEP B: MOTOR SHUTDOWN
+  Time: 1 minute
+  
+  Instructions:
+    1. Press green STOP button on control panel (held position, no twist needed)
+    2. Listen for motor wind-down sound (should stop within 3-5 seconds)
+    3. Observe pressure gauge needle returns to zero
+    4. Turn main electrical breaker to OFF (lever down)
+    5. Confirm green power light extinguishes
+
+□ STEP C: POST-SHUTDOWN CHECKS
+  Time: 3 minutes
+  
+  Instructions:
+    1. Wait 2 minutes before approaching pump (allow fluid to cool slightly)
+    2. Visual inspection of pump body:
+       - Check for any new leaks that developed during operation
+       - Observe drain line: Normal if 1-2 drops visible (allow 30 sec observation)
+    3. Check reservoir fluid level (should still be between MIN and MAX)
+    4. Verify isolation ball valves remain OPEN (leave system pressurized for next startup)
+    5. Record shutdown time in logbook:
+       - Shutdown time: __ : __ (HH:MM)
+       - Total operating time: _____ hours
+       - Any issues encountered: _______________________
+       - Next scheduled maintenance: ___________________
+
+EMERGENCY SHUTDOWN (If abnormality detected)
+Actions:
+  1. Immediately press RED emergency stop button
+  2. DO NOT attempt to correct problem while pump is running
+  3. Wait 3 minutes for complete pump shutdown
+  4. Contact maintenance supervisor before restarting
+  5. Do NOT restart until root cause is identified and corrected
+
+================================================================================
+TROUBLESHOOTING QUICK REFERENCE
+================================================================================
+
+PROBLEM: Pump will not start (motor does not hum after START button pressed)
+  Cause 1: Main electrical breaker is OFF
+  Solution: Turn main breaker to ON position, retry START
+  
+  Cause 2: Emergency stop button is pressed in (red button depressed)
+  Solution: Turn emergency stop button counterclockwise to RESET position
+  
+  Cause 3: Motor circuit breaker has tripped (safety cutout)
+  Solution: Find circuit breaker panel, reset breaker, retry START
+    Note: If breaker trips repeatedly, do NOT restart - call maintenance
+
+PROBLEM: Pump starts but no pressure builds (gauge stays at 0 bar)
+  Cause 1: Discharge ball valve is CLOSED
+  Solution: Locate discharge ball valve (near outlet), turn handle parallel to pipe
+  
+  Cause 2: Inlet ball valve is CLOSED
+  Solution: Locate inlet ball valve (near inlet), turn handle parallel to pipe
+  
+  Cause 3: Pump cavitating (inlet blockage)
+  Solution: STOP pump. Check inlet pressure gauge - if <1.0 bar, strainer is blocked.
+    Contact maintenance supervisor for strainer cleaning
+
+PROBLEM: Pressure builds rapidly to >25 bar (relief opening)
+  Cause: System overload or relief valve setting incorrect
+  Solution: Reduce load using load control valve (turn counterclockwise)
+    If pressure remains high: STOP pump and notify maintenance
+
+PROBLEM: Audible cavitation sound (grinding/crackling) during startup
+  Cause 1: Inlet strainer blockage
+  Solution: STOP pump. Contact maintenance for strainer inspection/cleaning
+  
+  Cause 2: Inlet pressure too low (<1.0 bar)
+  Solution: Check reservoir fluid level - may need top-up before restarting
+
+PROBLEM: Temperature rises rapidly (>2°C per minute) or exceeds 60°C during startup
+  Cause: Cooler not functioning or flow restricted
+  Solution: Verify cooler fan is running (visual check on cooler unit)
+    If fan not running: Check fan motor power, contact maintenance
+    Reduce pump load temporarily until cooler brings temp down to 55°C
+
+PROBLEM: Visible fluid leak developing during operation
+  Cause 1: Minor seal weeping (1-5 drops per minute from drain)
+  Solution: This is normal - monitor only, no action required
+  
+  Cause 2: Major leak (continuous stream from drain line)
+  Solution: STOP pump immediately. Do NOT restart. Call maintenance supervisor.
+
+PROBLEM: Excessive vibration or noise during operation
+  Cause: Bearing wear or impeller cavitation damage
+  Solution: STOP pump immediately. Do NOT continue operation.
+    Contact maintenance supervisor for bearing/seal inspection
+
+================================================================================
+MAINTENANCE REFERENCE
+Pre-Startup Inspection must be completed BEFORE each startup by authorized operator
+Routine maintenance performed per Maintenance Log (SOP-42A)
+Seal replacement interval: 24 months or 2,000 operating hours (whichever comes first)
+Next major service: Due 2024-02-18 (per maintenance log EVENT 5)
+
+Record all startups and shutdowns in operational logbook
+Report all abnormalities to Plant Engineering Manager (Ext. 4521)
+Emergency contact: Safety officer, Ext. 4500
+
+================================================================================
+APPROVALS & AUTHORIZATION
+Created by: Vikram Patel, Senior Technician (TECH-028)
+Reviewed by: Sandeep Deshmukh, Plant Engineering Manager
+Approved by: Sandeep Deshmukh, Plant Engineering Manager
+Date: 2024-02-01
+Effective: 2024-02-01
+Next Review: 2025-02-01 (annual)
+
+Document History:
+  Rev 1.0 (2019-08-22): Initial SOP creation at pump installation
+  Rev 1.1 (2020-06-10): Added flowmeter reading requirement
+  Rev 2.0 (2023-06-15): Revised inlet pressure alarm limits per operational experience
+  Rev 2.1 (2024-02-01): Added cavitation detection steps post-January 2024 incident
+
+Distribution: Operations team, Maintenance team, Safety committee, Plant manager
+================================================================================
