@@ -79,7 +79,6 @@ def retrieve(question: str, top_k: int = config.TOP_K) -> RetrievalResult:
             related_chunk_ids.add(pred_id)
 
     graph_context_chunks = []
-    related_entity_ids = set()
     for chunk_id in related_chunk_ids:
         node_data = graph_builder.graph.nodes[chunk_id]
         doc_id = None
@@ -97,7 +96,16 @@ def retrieve(question: str, top_k: int = config.TOP_K) -> RetrievalResult:
                 text=node_data.get("text"),
             )
         )
-        related_entity_ids.update(graph_builder.entities_for_chunk(chunk_id))
+
+    # Cap fan-out: a common entity shared by many chunks (large real corpora,
+    # unlike this small demo one) could otherwise pull an unbounded amount of
+    # text into the prompt. Sort for deterministic selection.
+    graph_context_chunks.sort(key=lambda c: c.chunk_id)
+    graph_context_chunks = graph_context_chunks[: config.MAX_GRAPH_CONTEXT_CHUNKS]
+
+    related_entity_ids = set()
+    for chunk in graph_context_chunks:
+        related_entity_ids.update(graph_builder.entities_for_chunk(chunk.chunk_id))
 
     graph_entities = sorted(entity_ids | filtered_neighbor_entities | related_entity_ids)
 
