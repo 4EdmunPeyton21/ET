@@ -1,0 +1,12 @@
+[
+  {"question": "Who performed the seal replacement on pump P-101?", "expected_substring": "Rajesh Kumar"},
+  {"question": "What work order covers the tube bundle cleaning on HX-204?", "expected_substring": "WO-2045"},
+  {"question": "Which regulatory standard governs preventive maintenance of P-101?", "expected_substring": "OISD-STD-118"},
+  {"question": "Who inspected the heat exchanger HX-204?", "expected_substring": "Anita Sharma"},
+  {"question": "What regulatory reference applies to inspection of HX-204?", "expected_substring": "PESO-CCE-2019"},
+  {"question": "Who inspected the pressure relief valve on V-301?", "expected_substring": "Mohammed Iqbal"},
+  {"question": "When was pump P-101 installed?", "expected_substring": "2018-06-01"},
+  {"question": "What is equipment C-102?", "expected_substring": "Compressor"},
+  {"question": "What statutory act covers dangerous occurrences on pressure vessels like V-301?", "expected_substring": "Factory-Act-1948-Sec-87"},
+  {"question": "What date was the pump seal replaced under WO-2044?", "expected_substring": "2026-03-14"}
+]
