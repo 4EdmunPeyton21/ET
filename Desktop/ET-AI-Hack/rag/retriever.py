@@ -46,5 +46,11 @@ def retrieve(question: str, top_k: int = config.TOP_K) -> RetrievalResult:
     for chunk in chunks:
         entity_ids.update(graph_builder.entities_for_chunk(chunk.chunk_id))
     neighbor_entities = graph_builder.get_neighbors(list(entity_ids), hops=1)
+    filtered_neighbor_entities = {
+        node_id
+        for node_id in neighbor_entities
+        if node_id in graph_builder.graph
+        and graph_builder.graph.nodes[node_id].get("type") not in ("chunk", "document")
+    }
 
-    return RetrievalResult(chunks=chunks, graph_entities=sorted(entity_ids | neighbor_entities))
+    return RetrievalResult(chunks=chunks, graph_entities=sorted(entity_ids | filtered_neighbor_entities))
