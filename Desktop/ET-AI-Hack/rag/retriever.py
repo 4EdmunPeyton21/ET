@@ -15,9 +15,18 @@ class ContextChunk:
 
 
 @dataclass
+class GraphContextChunk:
+    chunk_id: str
+    doc_id: str
+    page: int
+    text: str
+
+
+@dataclass
 class RetrievalResult:
     chunks: list[ContextChunk]
     graph_entities: list[str]
+    graph_context_chunks: list[GraphContextChunk]
 
 
 def retrieve(question: str, top_k: int = config.TOP_K) -> RetrievalResult:
@@ -53,4 +62,47 @@ def retrieve(question: str, top_k: int = config.TOP_K) -> RetrievalResult:
         and graph_builder.graph.nodes[node_id].get("type") not in ("chunk", "document")
     }
 
-    return RetrievalResult(chunks=chunks, graph_entities=sorted(entity_ids | filtered_neighbor_entities))
+    # Genuine 2-hop traversal: entity -> other chunks that mention it -> those
+    # chunks' text/document/entities. This is what actually lets the graph
+    # surface cross-document context (e.g. an equipment tag mentioned in both
+    # an SOP and a work order) instead of being a structural no-op.
+    direct_chunk_ids = {chunk.chunk_id for chunk in chunks}
+    related_chunk_ids = set()
+    for entity_id in entity_ids:
+        if entity_id not in graph_builder.graph:
+            continue
+        for pred_id in graph_builder.graph.predecessors(entity_id):
+            if pred_id in direct_chunk_ids:
+                continue
+            if graph_builder.graph.nodes[pred_id].get("type") != "chunk":
+                continue
+            related_chunk_ids.add(pred_id)
+
+    graph_context_chunks = []
+    related_entity_ids = set()
+    for chunk_id in related_chunk_ids:
+        node_data = graph_builder.graph.nodes[chunk_id]
+        doc_id = None
+        for succ_id in graph_builder.graph.successors(chunk_id):
+            if graph_builder.graph.nodes[succ_id].get("type") == "document":
+                doc_id = succ_id
+                break
+        if doc_id is None:
+            continue
+        graph_context_chunks.append(
+            GraphContextChunk(
+                chunk_id=chunk_id,
+                doc_id=doc_id,
+                page=node_data.get("page"),
+                text=node_data.get("text"),
+            )
+        )
+        related_entity_ids.update(graph_builder.entities_for_chunk(chunk_id))
+
+    graph_entities = sorted(entity_ids | filtered_neighbor_entities | related_entity_ids)
+
+    return RetrievalResult(
+        chunks=chunks,
+        graph_entities=graph_entities,
+        graph_context_chunks=graph_context_chunks,
+    )

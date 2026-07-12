@@ -39,6 +39,12 @@ def generate_answer(question: str, retrieval: RetrievalResult) -> AnswerResult:
     context_text = "\n\n".join(
         f"[Source: {c.doc_id}, p.{c.page}]\n{c.text}" for c in retrieval.chunks
     )
+    if retrieval.graph_context_chunks:
+        graph_text = "\n\n".join(
+            f"[Related via knowledge graph — Source: {c.doc_id}, p.{c.page}]\n{c.text}"
+            for c in retrieval.graph_context_chunks
+        )
+        context_text = f"{context_text}\n\n{graph_text}"
     prompt = (
         "You are an industrial knowledge copilot. Answer the question using ONLY the "
         "context below. Cite sources inline using the exact format [Source: doc_id, p.page] "
@@ -53,6 +59,13 @@ def generate_answer(question: str, retrieval: RetrievalResult) -> AnswerResult:
     except Exception:
         return AnswerResult(answer=FALLBACK_MESSAGE, citations=[], confidence="Low")
 
-    citations = [Citation(doc_id=c.doc_id, page=c.page) for c in retrieval.chunks]
+    citations = []
+    seen_sources = set()
+    for c in retrieval.chunks + retrieval.graph_context_chunks:
+        key = (c.doc_id, c.page)
+        if key in seen_sources:
+            continue
+        seen_sources.add(key)
+        citations.append(Citation(doc_id=c.doc_id, page=c.page))
     confidence = _confidence_label(retrieval.chunks[0].similarity, bool(retrieval.graph_entities))
     return AnswerResult(answer=answer_text, citations=citations, confidence=confidence)
