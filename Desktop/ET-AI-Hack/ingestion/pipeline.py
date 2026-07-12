@@ -27,12 +27,17 @@ def ingest_all(incoming_dir: Path = config.INCOMING_DIR) -> dict:
         for page in pages:
             for i, chunk in enumerate(chunk_text(page.text)):
                 chunk_id = f"{doc_id}::p{page.page_number}::c{i}"
-                graph_builder.upsert_chunk(chunk_id, doc_id, page.page_number, chunk)
-                entities = extract_entities(chunk)
-                graph_builder.upsert_entities(chunk_id, entities)
-                upsert_chunk(collection, ChunkRecord(chunk_id, doc_id, doc_type, page.page_number, chunk))
+                try:
+                    graph_builder.upsert_chunk(chunk_id, doc_id, page.page_number, chunk)
+                    entities = extract_entities(chunk)
+                    graph_builder.upsert_entities(chunk_id, entities)
+                    upsert_chunk(collection, ChunkRecord(chunk_id, doc_id, doc_type, page.page_number, chunk))
+                except Exception as exc:
+                    report["skipped"].append({"file": chunk_id, "error": str(exc)})
+                    continue
 
         report["ingested"].append(doc_id)
+        graph_builder.save()
 
     graph_builder.save()
     return report
